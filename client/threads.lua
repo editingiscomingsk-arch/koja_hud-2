@@ -164,9 +164,10 @@ CreateThread(function()
     while true do
         local mode = KOJA.MinimapVisibility or 'always'
         local inVehicle = IsPedInAnyVehicle(PlayerPedId(), false)
-        local show = mode == 'always'
-            or (mode == 'vehicle' and inVehicle)
-            or (mode == 'foot' and not inVehicle)
+        local show = KOJA.MiniMap and KOJA.MiniMap.Enabled == true
+            and (mode == 'always'
+                or (mode == 'vehicle' and inVehicle)
+                or (mode == 'foot' and not inVehicle))
 
         if show and KOJA.NeedItemForMinimap and KojaLib.Client.GetItemCount(KOJA.MinimapItem) <= 0 then
             show = false
