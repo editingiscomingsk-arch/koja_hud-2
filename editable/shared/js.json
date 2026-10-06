@@ -1,0 +1,1035 @@
+{
+    "default_settings": {
+        "hud": {
+            "visibility": true
+        },
+        "status": {
+            "visibility": true,
+            "style": "default",
+            "colors": {
+                "health": "#ff4444",
+                "shield": "#e2e2e2",
+                "food": "#d8932b",
+                "water": "#60b7ff",
+                "stamina": "#8dd82b",
+                "oxygen": "#4b7dad",
+                "voice": "#ffb74d",
+                "stress": "#ff6666"
+            },
+            "percent": {
+                "health": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "shield": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "food": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "water": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "stamina": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "oxygen": {
+                    "value": 50,
+                    "action": "above",
+                    "visibility": true
+                },
+                "voice": {
+                    "value": 50,
+                    "action": "below",
+                    "visibility": true
+                },
+                "stress": {
+                    "value": 50,
+                    "action": "above",
+                    "visibility": true
+                }
+            },
+            "enabled": {
+                "health": true,
+                "shield": true,
+                "food": true,
+                "water": true,
+                "stamina": true,
+                "oxygen": true,
+                "voice": true,
+                "stress": true
+            },
+            "borderradius": 0.5,
+            "scale": "1.5"
+        },
+        "carhud": {
+            "visibility": true,
+            "style": "gauge",
+            "metertype": "kmh",
+            "elements": {
+                "gear": true,
+                "fuel": true,
+                "nitro": true,
+                "seatbelt": true,
+                "engine": true,
+                "rpm": false,
+                "engineHealth": false,
+                "lights": false,
+                "indicators": false,
+                "cruise": false
+            }
+        },
+        "notify": {
+            "visibility": true,
+            "position": "top-right",
+            "style": "default"
+        },
+        "informations": {
+            "visibility": true,
+            "opacity": 1,
+            "items": {
+                "logo": false,
+                "voice": true,
+                "id": true,
+                "time": true,
+                "cash": true,
+                "bank": true,
+                "job": true,
+                "discord": true
+            }
+        },
+        "keybinds": {
+            "visibility": true
+        },
+        "compass": {
+            "visibility": "always",
+            "style": "bar"
+        },
+        "weapon": {
+            "visibility": false
+        },
+        "minimap": {
+            "visibility": "always"
+        },
+        "watermark": {
+            "visibility": true,
+            "style": "default",
+            "font": "Poppins",
+            "size": 0.95,
+            "color": {
+                "text": "#f2f2f5"
+            }
+        },
+        "pvp": {
+            "enabled": false
+        },
+        "warnings": {
+            "lowHealth": true,
+            "lowFuel": true,
+            "sound": true,
+            "healthThreshold": 20,
+            "fuelThreshold": 15
+        },
+        "killfeed": {
+            "enabled": false,
+            "style": "default",
+            "anyDistance": true,
+            "distance": 100
+        },
+        "statuseffects": {
+            "enabled": true
+        },
+        "customBinds": [],
+        "builtinBinds": [
+            { "id": "engine", "key": "B", "command": "+toggle_engine" },
+            { "id": "seatbelt", "key": "L", "command": "+toggle_seatbelt" },
+            { "id": "cruise", "key": "T", "command": "+toggle_cruisemode" },
+            { "id": "nitro", "key": "N", "command": "+toggle_nitro" },
+            { "id": "vehicleMenu", "key": "U", "command": "koja_vehiclemenu" }
+        ],
+        "layout": {
+            "status": {
+                "x": 0,
+                "y": 0
+            },
+            "carhud": {
+                "x": 0,
+                "y": 0
+            },
+            "informations": {
+                "x": 0,
+                "y": 0
+            },
+            "notify": {
+                "x": 0,
+                "y": 0
+            },
+            "progressbar": {
+                "x": 0,
+                "y": 0
+            },
+            "textui": {
+                "x": 0,
+                "y": 0
+            },
+            "keybinds": {
+                "x": 0,
+                "y": 0
+            },
+            "compass": {
+                "x": 0,
+                "y": 0
+            },
+            "weapon": {
+                "x": 0,
+                "y": 0
+            },
+            "watermark": {
+                "x": 0,
+                "y": 0
+            },
+            "killfeed": {
+                "x": 0,
+                "y": 0
+            },
+            "statuseffects": {
+                "x": 0,
+                "y": 0
+            },
+            "minimap": {
+                "x": 0,
+                "y": 0,
+                "scale": 1
+            }
+        }
+    },
+    "ui": {
+        "discord": "discord.gg/hexelstore",
+        "logo": "",
+        "keybinds": {
+            "position": "right",
+            "hints": [
+                {
+                    "key": "M",
+                    "label": "Main menu"
+                },
+                {
+                    "key": "ESC",
+                    "label": "Map"
+                },
+                {
+                    "key": "TAB",
+                    "label": "Inventory"
+                },
+                {
+                    "key": "SHIFT",
+                    "label": "Sprint"
+                },
+                {
+                    "key": "N",
+                    "label": "Talk"
+                },
+                {
+                    "key": "G",
+                    "label": "Interaction menu"
+                },
+                {
+                    "key": "B",
+                    "label": "Point"
+                },
+                {
+                    "key": "F3",
+                    "label": "Reload voice"
+                }
+            ]
+        },
+        "activeBinds": [
+            { "id": "engine", "key": "B", "command": "+toggle_engine", "label": "Engine", "description": "Toggle the vehicle engine" },
+            { "id": "seatbelt", "key": "L", "command": "+toggle_seatbelt", "label": "Seatbelt", "description": "Toggle the vehicle seatbelt" },
+            { "id": "cruise", "key": "T", "command": "+toggle_cruisemode", "label": "Cruise mode", "description": "Toggle cruise control" },
+            { "id": "nitro", "key": "N", "command": "+toggle_nitro", "label": "Nitro", "description": "Activate vehicle nitro" },
+            { "id": "vehicleMenu", "key": "U", "command": "koja_vehiclemenu", "label": "Vehicle controls", "description": "Open the vehicle control menu" }
+        ]
+    },
+    "options_settings": {
+        "hud": [
+            {
+                "window": "hud",
+                "icon": "fa-solid fa-bars",
+                "title": "hud_settings.title",
+                "description": "hud_settings.description",
+                "color": "#47c5ff",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "hud.visibility",
+                        "title": "hud_settings.settings.visibility_title",
+                        "description": "hud_settings.settings.visibility_description"
+                    }
+                ]
+            },
+            {
+                "window": "pvp",
+                "icon": "fa-solid fa-crosshairs",
+                "title": "pvp_settings.title",
+                "description": "pvp_settings.description",
+                "color": "#ff5a5a",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "pvp.enabled",
+                        "title": "pvp_settings.settings.enabled_title",
+                        "description": "pvp_settings.settings.enabled_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "watermark.visibility",
+                        "title": "pvp_settings.settings.watermark_visibility_title",
+                        "description": "pvp_settings.settings.watermark_visibility_description"
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "watermark.style",
+                        "title": "pvp_settings.settings.watermark_style_title",
+                        "description": "pvp_settings.settings.watermark_style_description",
+                        "options": [
+                            {
+                                "id": "default",
+                                "label": "pvp_settings.options.watermark_style.default"
+                            },
+                            {
+                                "id": "line",
+                                "label": "pvp_settings.options.watermark_style.line"
+                            },
+                            {
+                                "id": "bracket",
+                                "label": "pvp_settings.options.watermark_style.bracket"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "watermark.font",
+                        "title": "pvp_settings.settings.watermark_font_title",
+                        "description": "pvp_settings.settings.watermark_font_description",
+                        "options": [
+                            {
+                                "id": "Poppins",
+                                "label": "Poppins"
+                            },
+                            {
+                                "id": "Inter",
+                                "label": "Inter"
+                            },
+                            {
+                                "id": "Montserrat",
+                                "label": "Montserrat"
+                            },
+                            {
+                                "id": "Proxima",
+                                "label": "Proxima Nova"
+                            },
+                            {
+                                "id": "SF Pro",
+                                "label": "SF Pro"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "slider",
+                        "id": "watermark.size",
+                        "title": "pvp_settings.settings.watermark_size_title",
+                        "description": "pvp_settings.settings.watermark_size_description",
+                        "min": 0.6,
+                        "max": 1.8
+                    },
+                    {
+                        "type": "color",
+                        "id": "watermark.color",
+                        "title": "pvp_settings.settings.watermark_color_title",
+                        "description": "pvp_settings.settings.watermark_color_description",
+                        "options": [
+                            {
+                                "id": "text",
+                                "label": "pvp_settings.options.watermark_color.text"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": "warnings",
+                "icon": "fa-solid fa-triangle-exclamation",
+                "title": "warnings_settings.title",
+                "description": "warnings_settings.description",
+                "color": "#ffb84d",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "warnings.lowHealth",
+                        "title": "warnings_settings.settings.low_health_title",
+                        "description": "warnings_settings.settings.low_health_description"
+                    },
+                    {
+                        "type": "slider",
+                        "id": "warnings.healthThreshold",
+                        "title": "warnings_settings.settings.health_threshold_title",
+                        "description": "warnings_settings.settings.health_threshold_description",
+                        "min": 5,
+                        "max": 50
+                    },
+                    {
+                        "type": "switch",
+                        "id": "warnings.lowFuel",
+                        "title": "warnings_settings.settings.low_fuel_title",
+                        "description": "warnings_settings.settings.low_fuel_description"
+                    },
+                    {
+                        "type": "slider",
+                        "id": "warnings.fuelThreshold",
+                        "title": "warnings_settings.settings.fuel_threshold_title",
+                        "description": "warnings_settings.settings.fuel_threshold_description",
+                        "min": 5,
+                        "max": 50
+                    },
+                    {
+                        "type": "switch",
+                        "id": "warnings.sound",
+                        "title": "warnings_settings.settings.sound_title",
+                        "description": "warnings_settings.settings.sound_description"
+                    }
+                ]
+            },
+            {
+                "window": "killfeed",
+                "icon": "fa-solid fa-skull",
+                "title": "killfeed_settings.title",
+                "description": "killfeed_settings.description",
+                "color": "#ff5a5a",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "killfeed.enabled",
+                        "title": "killfeed_settings.settings.enabled_title",
+                        "description": "killfeed_settings.settings.enabled_description"
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "killfeed.style",
+                        "title": "killfeed_settings.settings.style_title",
+                        "description": "killfeed_settings.settings.style_description",
+                        "options": [
+                            {
+                                "id": "default",
+                                "label": "killfeed_settings.options.style.default"
+                            },
+                            {
+                                "id": "minimal",
+                                "label": "killfeed_settings.options.style.minimal"
+                            },
+                            {
+                                "id": "modern",
+                                "label": "killfeed_settings.options.style.modern"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "switch",
+                        "id": "killfeed.anyDistance",
+                        "title": "killfeed_settings.settings.any_distance_title",
+                        "description": "killfeed_settings.settings.any_distance_description"
+                    },
+                    {
+                        "type": "slider",
+                        "id": "killfeed.distance",
+                        "title": "killfeed_settings.settings.distance_title",
+                        "description": "killfeed_settings.settings.distance_description",
+                        "min": 5,
+                        "max": 500
+                    }
+                ]
+            },
+            {
+                "window": "statuseffects",
+                "icon": "fa-solid fa-bolt",
+                "title": "statuseffects_settings.title",
+                "description": "statuseffects_settings.description",
+                "color": "#8dd82b",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "statuseffects.enabled",
+                        "title": "statuseffects_settings.settings.enabled_title",
+                        "description": "statuseffects_settings.settings.enabled_description"
+                    }
+                ]
+            },
+            {
+                "window": "notify",
+                "icon": "fa-solid fa-bell",
+                "title": "notify_settings.title",
+                "description": "notify_settings.description",
+                "color": "#ff6666",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "notify.visibility",
+                        "title": "notify_settings.settings.visibility_title",
+                        "description": "notify_settings.settings.visibility_description"
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "notify.position",
+                        "title": "notify_settings.settings.position_title",
+                        "description": "notify_settings.settings.position_description",
+                        "options": [
+                            {
+                                "id": "top-right",
+                                "label": "notify_settings.options.position.top-right"
+                            },
+                            {
+                                "id": "bottom-left",
+                                "label": "notify_settings.options.position.bottom-left"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "notify.style",
+                        "title": "notify_settings.settings.style_title",
+                        "description": "notify_settings.settings.style_description",
+                        "options": [
+                            {
+                                "id": "default",
+                                "label": "notify_settings.options.style.default"
+                            },
+                            {
+                                "id": "minimalistic",
+                                "label": "notify_settings.options.style.minimalistic"
+                            },
+                            {
+                                "id": "modern",
+                                "label": "notify_settings.options.style.modern"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": "informations",
+                "icon": "fa-solid fa-info",
+                "title": "informations_settings.title",
+                "description": "informations_settings.description",
+                "color": "#ff6666",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "informations.visibility",
+                        "title": "informations_settings.settings.visibility_title",
+                        "description": "informations_settings.settings.visibility_description"
+                    },
+                    {
+                        "type": "slider",
+                        "id": "informations.opacity",
+                        "title": "informations_settings.settings.opacity_title",
+                        "description": "informations_settings.settings.opacity_description",
+                        "min": 0,
+                        "max": 1
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.logo",
+                        "title": "informations_settings.settings.item_logo",
+                        "description": "informations_settings.settings.item_logo_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.voice",
+                        "title": "informations_settings.settings.item_voice",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.id",
+                        "title": "informations_settings.settings.item_id",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.time",
+                        "title": "informations_settings.settings.item_time",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.cash",
+                        "title": "informations_settings.settings.item_cash",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.bank",
+                        "title": "informations_settings.settings.item_bank",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.job",
+                        "title": "informations_settings.settings.item_job",
+                        "description": "informations_settings.settings.item_description"
+                    },
+                    {
+                        "type": "switch",
+                        "id": "informations.items.discord",
+                        "title": "informations_settings.settings.item_discord",
+                        "description": "informations_settings.settings.item_description"
+                    }
+                ]
+            },
+            {
+                "window": "keybinds",
+                "icon": "fa-solid fa-keyboard",
+                "title": "keybinds_settings.title",
+                "description": "keybinds_settings.description",
+                "color": "#47c5ff",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "keybinds.visibility",
+                        "title": "keybinds_settings.settings.visibility_title",
+                        "description": "keybinds_settings.settings.visibility_description"
+                    }
+                ]
+            },
+            {
+                "window": "compass",
+                "icon": "fa-solid fa-compass",
+                "title": "compass_settings.title",
+                "description": "compass_settings.description",
+                "color": "#5fff74",
+                "settings": [
+                    {
+                        "type": "dropdown",
+                        "id": "compass.visibility",
+                        "title": "compass_settings.settings.visibility_title",
+                        "description": "compass_settings.settings.visibility_description",
+                        "options": [
+                            {
+                                "id": "always",
+                                "label": "compass_settings.options.visibility.always"
+                            },
+                            {
+                                "id": "vehicle",
+                                "label": "compass_settings.options.visibility.vehicle"
+                            },
+                            {
+                                "id": "foot",
+                                "label": "compass_settings.options.visibility.foot"
+                            },
+                            {
+                                "id": "never",
+                                "label": "compass_settings.options.visibility.never"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "compass.style",
+                        "title": "compass_settings.settings.style_title",
+                        "description": "compass_settings.settings.style_description",
+                        "options": [
+                            {
+                                "id": "bar",
+                                "label": "compass_settings.options.style.bar"
+                            },
+                            {
+                                "id": "minimal",
+                                "label": "compass_settings.options.style.minimal"
+                            },
+                            {
+                                "id": "cardinal",
+                                "label": "compass_settings.options.style.cardinal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": "minimap",
+                "icon": "fa-solid fa-map-location-dot",
+                "title": "minimap_settings.title",
+                "description": "minimap_settings.description",
+                "color": "#47c5ff",
+                "settings": [
+                    {
+                        "type": "dropdown",
+                        "id": "minimap.visibility",
+                        "title": "minimap_settings.settings.visibility_title",
+                        "description": "minimap_settings.settings.visibility_description",
+                        "options": [
+                            {
+                                "id": "always",
+                                "label": "compass_settings.options.visibility.always"
+                            },
+                            {
+                                "id": "vehicle",
+                                "label": "compass_settings.options.visibility.vehicle"
+                            },
+                            {
+                                "id": "foot",
+                                "label": "compass_settings.options.visibility.foot"
+                            },
+                            {
+                                "id": "never",
+                                "label": "compass_settings.options.visibility.never"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": "weapon",
+                "icon": "fa-solid fa-gun",
+                "title": "weapon_settings.title",
+                "description": "weapon_settings.description",
+                "color": "#d8932b",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "weapon.visibility",
+                        "title": "weapon_settings.settings.visibility_title",
+                        "description": "weapon_settings.settings.visibility_description"
+                    }
+                ]
+            }
+        ],
+        "status": [
+            {
+                "window": "status",
+                "icon": "fa-solid fa-steak",
+                "title": "status_settings.title",
+                "description": "status_settings.description",
+                "color": "#ff3939",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "status.visibility",
+                        "title": "status_settings.settings.visibility_title",
+                        "description": "status_settings.settings.visibility_description"
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "status.style",
+                        "title": "status_settings.settings.style_title",
+                        "description": "status_settings.settings.style_description",
+                        "options": [
+                            {
+                                "id": "default",
+                                "label": "status_settings.options.style.default"
+                            },
+                            {
+                                "id": "circle",
+                                "label": "status_settings.options.style.circle"
+                            },
+                            {
+                                "id": "echo",
+                                "label": "status_settings.options.style.echo"
+                            },
+                            {
+                                "id": "minimal",
+                                "label": "status_settings.options.style.minimal"
+                            },
+                            {
+                                "id": "hexagon",
+                                "label": "status_settings.options.style.hexagon"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "color",
+                        "id": "status.colors",
+                        "title": "status_settings.settings.colors_title",
+                        "description": "status_settings.settings.colors_description",
+                        "options": [
+                            {
+                                "id": "health",
+                                "label": "status_settings.options.colors.health"
+                            },
+                            {
+                                "id": "shield",
+                                "label": "status_settings.options.colors.shield"
+                            },
+                            {
+                                "id": "food",
+                                "label": "status_settings.options.colors.food"
+                            },
+                            {
+                                "id": "water",
+                                "label": "status_settings.options.colors.water"
+                            },
+                            {
+                                "id": "stamina",
+                                "label": "status_settings.options.colors.stamina"
+                            },
+                            {
+                                "id": "oxygen",
+                                "label": "status_settings.options.colors.oxygen"
+                            },
+                            {
+                                "id": "voice",
+                                "label": "status_settings.options.colors.voice"
+                            },
+                            {
+                                "id": "stress",
+                                "label": "status_settings.options.colors.stress"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "toggles",
+                        "id": "status.enabled",
+                        "title": "status_settings.settings.enabled_title",
+                        "description": "status_settings.settings.enabled_description",
+                        "options": [
+                            {
+                                "id": "health",
+                                "label": "status_settings.options.colors.health"
+                            },
+                            {
+                                "id": "shield",
+                                "label": "status_settings.options.colors.shield"
+                            },
+                            {
+                                "id": "food",
+                                "label": "status_settings.options.colors.food"
+                            },
+                            {
+                                "id": "water",
+                                "label": "status_settings.options.colors.water"
+                            },
+                            {
+                                "id": "stamina",
+                                "label": "status_settings.options.colors.stamina"
+                            },
+                            {
+                                "id": "oxygen",
+                                "label": "status_settings.options.colors.oxygen"
+                            },
+                            {
+                                "id": "voice",
+                                "label": "status_settings.options.colors.voice"
+                            },
+                            {
+                                "id": "stress",
+                                "label": "status_settings.options.colors.stress"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "slider",
+                        "id": "status.borderradius",
+                        "title": "status_settings.settings.borderradius_title",
+                        "description": "status_settings.settings.borderradius_description",
+                        "min": 0.01,
+                        "max": 1.5
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "status.scale",
+                        "title": "status_settings.settings.scale_title",
+                        "description": "status_settings.settings.scale_description",
+                        "options": [
+                            {
+                                "id": "0.5",
+                                "label": "status_settings.options.scale.small"
+                            },
+                            {
+                                "id": "1.5",
+                                "label": "status_settings.options.scale.default"
+                            },
+                            {
+                                "id": "3",
+                                "label": "status_settings.options.scale.big"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "window": "status-percents",
+                "icon": "fa-solid fa-percent",
+                "title": "status_percents_settings.title",
+                "description": "status_percents_settings.description",
+                "color": "#ff6666",
+                "settings": [
+                    {
+                        "type": "percent",
+                        "id": "status.percent.health",
+                        "title": "status_percents_settings.settings.health_title",
+                        "description": "status_percents_settings.settings.health_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.shield",
+                        "title": "status_percents_settings.settings.shield_title",
+                        "description": "status_percents_settings.settings.shield_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.food",
+                        "title": "status_percents_settings.settings.food_title",
+                        "description": "status_percents_settings.settings.food_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.water",
+                        "title": "status_percents_settings.settings.water_title",
+                        "description": "status_percents_settings.settings.water_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.stamina",
+                        "title": "status_percents_settings.settings.stamina_title",
+                        "description": "status_percents_settings.settings.stamina_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.oxygen",
+                        "title": "status_percents_settings.settings.oxygen_title",
+                        "description": "status_percents_settings.settings.oxygen_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.voice",
+                        "title": "status_percents_settings.settings.voice_title",
+                        "description": "status_percents_settings.settings.voice_description"
+                    },
+                    {
+                        "type": "percent",
+                        "id": "status.percent.stress",
+                        "title": "status_percents_settings.settings.stress_title",
+                        "description": "status_percents_settings.settings.stress_description"
+                    }
+                ]
+            }
+        ],
+        "carhud": [
+            {
+                "window": "carhud",
+                "icon": "fa-sharp fa-solid fa-steering-wheel",
+                "title": "carhud_settings.title",
+                "description": "carhud_settings.description",
+                "color": "#5fff74",
+                "settings": [
+                    {
+                        "type": "switch",
+                        "id": "carhud.visibility",
+                        "title": "carhud_settings.settings.visibility_title",
+                        "description": "carhud_settings.settings.visibility_description"
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "carhud.style",
+                        "title": "carhud_settings.settings.style_title",
+                        "description": "carhud_settings.settings.style_description",
+                        "options": [
+                            {
+                                "id": "gauge",
+                                "label": "carhud_settings.options.style.gauge"
+                            },
+                            {
+                                "id": "default",
+                                "label": "carhud_settings.options.style.default"
+                            },
+                            {
+                                "id": "compact",
+                                "label": "carhud_settings.options.style.compact"
+                            },
+                            {
+                                "id": "minimal",
+                                "label": "carhud_settings.options.style.minimal"
+                            },
+                            {
+                                "id": "pvp",
+                                "label": "carhud_settings.options.style.pvp"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "dropdown",
+                        "id": "carhud.metertype",
+                        "title": "carhud_settings.settings.metertype_title",
+                        "description": "carhud_settings.settings.metertype_description",
+                        "options": [
+                            {
+                                "id": "kmh",
+                                "label": "carhud_settings.options.metertype.kmh"
+                            },
+                            {
+                                "id": "mph",
+                                "label": "carhud_settings.options.metertype.mph"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "toggles",
+                        "id": "carhud.elements",
+                        "title": "carhud_settings.settings.elements_title",
+                        "description": "carhud_settings.settings.elements_description",
+                        "options": [
+                            {
+                                "id": "gear",
+                                "label": "carhud_settings.options.elements.gear"
+                            },
+                            {
+                                "id": "fuel",
+                                "label": "carhud_settings.options.elements.fuel"
+                            },
+                            {
+                                "id": "nitro",
+                                "label": "carhud_settings.options.elements.nitro"
+                            },
+                            {
+                                "id": "seatbelt",
+                                "label": "carhud_settings.options.elements.seatbelt"
+                            },
+                            {
+                                "id": "engine",
+                                "label": "carhud_settings.options.elements.engine"
+                            },
+                            {
+                                "id": "rpm",
+                                "label": "carhud_settings.options.elements.rpm"
+                            },
+                            {
+                                "id": "engineHealth",
+                                "label": "carhud_settings.options.elements.engineHealth"
+                            },
+                            {
+                                "id": "lights",
+                                "label": "carhud_settings.options.elements.lights"
+                            },
+                            {
+                                "id": "indicators",
+                                "label": "carhud_settings.options.elements.indicators"
+                            },
+                            {
+                                "id": "cruise",
+                                "label": "carhud_settings.options.elements.cruise"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

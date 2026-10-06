@@ -1,0 +1,23 @@
+ElectricModels = {
+    [GetHashKey('airtug')] = true,
+    [GetHashKey('caddy')] = true,
+    [GetHashKey('caddy2')] = true,
+    [GetHashKey('caddy3')] = true,
+    [GetHashKey('cyclone')] = true,
+    [GetHashKey('cyclone2')] = true,
+    [GetHashKey('imorgon')] = true,
+    [GetHashKey('iwagen')] = true,
+    [GetHashKey('khamelion')] = true,
+    [GetHashKey('metrotrain')] = true,
+    [GetHashKey('minitank')] = true,
+    [GetHashKey('neon')] = true,
+    [GetHashKey('omnisegt')] = true,
+    [GetHashKey('powersurge')] = true,
+    [GetHashKey('raiden')] = true,
+    [GetHashKey('rcbandito')] = true,
+    [GetHashKey('surge')] = true,
+    [GetHashKey('tezeract')] = true,
+    [GetHashKey('virtue')] = true,
+    [GetHashKey('voltic')] = true,
+    [GetHashKey('voltic2')] = true
+}

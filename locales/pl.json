@@ -1,0 +1,404 @@
+{
+    "ui": {
+        "settings": {
+            "main_title": "USTAWIENIA",
+            "misc": {
+                "show": "Pokaż",
+                "over": "Pokaż, jeśli ponad",
+                "under": "Pokaż, jeśli poniżej"
+            },
+            "categories": {
+                "hud": "GŁÓWNE",
+                "status": "STAN",
+                "carhud": "LICZNIK PRĘDKOŚCI",
+                "binds": "BINDY"
+            },
+            "hud_settings": {
+                "title": "Ustawienia HUD",
+                "description": "Tutaj możesz zarządzać głównymi ustawieniami HUD.",
+                "settings": {
+                    "visibility_title": "Widoczność HUD",
+                    "visibility_description": "Ukryj/Pokaż główny HUD"
+                }
+            },
+            "notify_settings": {
+                "title": "Ustawienia Powiadomień",
+                "description": "Tutaj możesz zarządzać głównymi ustawieniami powiadomień.",
+                "settings": {
+                    "visibility_title": "Widoczność Powiadomień",
+                    "visibility_description": "Widoczność powiadomień",
+                    "position_title": "Pozycja Powiadomień",
+                    "position_description": "Wybierz pozycję dla powiadomień",
+                    "style_title": "Styl Powiadomień",
+                    "style_description": "Wybierz styl powiadomień"
+                },
+                "options": {
+                    "position": {
+                        "top-right": "Góra, prawa strona",
+                        "bottom-left": "Dół, lewa strona"
+                    },
+                    "style": {
+                        "default": "Domyślny",
+                        "minimalistic": "Minimalistyczny",
+                        "modern": "Nowoczesny"
+                    }
+                },
+                "test_title": "Nowy styl",
+                "test_desc": "Tak beda wygladac Twoje powiadomienia!"
+            },
+            "status_settings": {
+                "title": "Ustawienia Stanu",
+                "description": "Najczęściej używane ustawienia stanu w jednym miejscu!",
+                "settings": {
+                    "visibility_title": "Widoczność Stanu",
+                    "visibility_description": "Widoczność komponentów: Zdrowie, Głód, Pragnienie",
+                    "style_title": "Styl Stanu",
+                    "style_description": "Wybierz styl stanu",
+                    "colors_title": "Kolory Stanu",
+                    "colors_description": "Wybierz kolor dla każdego komponentu stanu.",
+                    "borderradius_title": "Promień Obramowania Stanu",
+                    "borderradius_description": "Współczynnik promienia",
+                    "scale_title": "Skala Stanu",
+                    "scale_description": "Współczynnik skali",
+                    "enabled_title": "Widoczne ikony",
+                    "enabled_description": "Włącz lub wyłącz poszczególne ikony statusu."
+                },
+                "options": {
+                    "style": {
+                        "default": "Domyślny",
+                        "circle": "Kola",
+                        "echo": "Echo",
+                        "minimal": "Minimal",
+                        "hexagon": "Heksagon"
+                    },
+                    "scale": {
+                        "small": "Mały",
+                        "default": "Domyślny",
+                        "big": "Duży"
+                    },
+                    "colors": {
+                        "health": "Zdrowie",
+                        "shield": "Pancerz",
+                        "food": "Głód",
+                        "water": "Pragnienie",
+                        "stamina": "Wytrzymałość",
+                        "oxygen": "Tlen",
+                        "voice": "Głos",
+                        "stress": "Stres"
+                    }
+                }
+            },
+            "status_percents_settings": {
+                "title": "Ustawienia Procentowe Stanu",
+                "description": "Najczęściej używane ustawienia procentowe stanu w jednym miejscu!",
+                "settings": {
+                    "health_title": "Zdrowie",
+                    "health_description": "Procent zdrowia",
+                    "shield_title": "Pancerz",
+                    "shield_description": "Procent pancerza",
+                    "food_title": "Głód",
+                    "food_description": "Procent głodu",
+                    "water_title": "Pragnienie",
+                    "water_description": "Procent pragnienia",
+                    "stamina_title": "Wytrzymałość",
+                    "stamina_description": "Procent wytrzymałości",
+                    "oxygen_title": "Tlen",
+                    "oxygen_description": "Procent tlenu",
+                    "voice_title": "Głos",
+                    "voice_description": "Procent głosu",
+                    "stress_title": "Stres",
+                    "stress_description": "Procent stresu"
+                }
+            },
+            "carhud_settings": {
+                "title": "Ustawienia Licznika Prędkości",
+                "description": "Najczęściej używane ustawienia licznika prędkości w jednym miejscu!",
+                "settings": {
+                    "visibility_title": "Widoczność Licznika Prędkości",
+                    "visibility_description": "Widoczność elementów: prędkość",
+                    "style_title": "Styl Licznika Prędkości",
+                    "style_description": "Wybierz styl licznika prędkości",
+                    "metertype_title": "Typ Licznika",
+                    "metertype_description": "Wybierz typ licznika",
+                    "elements_title": "Wyświetlane elementy",
+                    "elements_description": "Pokaż lub ukryj elementy licznika."
+                },
+                "options": {
+                    "style": {
+                        "default": "Domyślny",
+                        "compact": "Kompaktowy",
+                        "gauge": "Zegar",
+                        "minimal": "Minimal",
+                        "pvp": "PVP"
+                    },
+                    "metertype": {
+                        "kmh": "KM/H",
+                        "mph": "MP/H"
+                    },
+                    "elements": {
+                        "gear": "Bieg",
+                        "fuel": "Paliwo",
+                        "nitro": "Nitro",
+                        "seatbelt": "Pasy",
+                        "engine": "Silnik",
+                        "rpm": "Obroty",
+                        "engineHealth": "Stan silnika",
+                        "lights": "Światła",
+                        "indicators": "Kierunkowskazy",
+                        "cruise": "Tempomat"
+                    }
+                }
+            },
+            "informations_settings": {
+                "title": "Ustawienia Informacji",
+                "description": "Ustawienia panelu informacji.",
+                "settings": {
+                    "visibility_title": "Pokaż Informacje",
+                    "visibility_description": "Przełącz widoczność panelu informacji.",
+                    "opacity_title": "Przezroczystość",
+                    "opacity_description": "Ustaw przezroczystość panelu informacji (0 do 1).",
+                    "item_description": "Pokaz lub ukryj ten element.",
+                    "item_voice": "Pokaz mikrofon",
+                    "item_id": "Pokaz ID",
+                    "item_time": "Pokaz zegar",
+                    "item_cash": "Pokaz gotowke",
+                    "item_bank": "Pokaz bank",
+                    "item_job": "Pokaz prace",
+                    "item_discord": "Pokaz Discord",
+                    "item_logo": "Logo serwera",
+                    "item_logo_description": "Pokaż logo serwera (ustaw URL w js.json: ui.logo)."
+                }
+            },
+            "layout": {
+                "edit": "Edytuj uklad",
+                "edit_desc": "Przeciagnij elementy HUD gdzie chcesz",
+                "save": "Zapisz uklad",
+                "reset": "Resetuj pozycje",
+                "hint": "Przeciagnij ramki aby przesunac elementy HUD. Kliknij zapisz gdy skonczysz.",
+                "items": {
+                    "status": "Status",
+                    "carhud": "Licznik",
+                    "informations": "Informacje",
+                    "notify": "Powiadomienia",
+                    "progressbar": "Pasek postepu",
+                    "textui": "Text UI",
+                    "keybinds": "Klawisze",
+                    "compass": "Kompas",
+                    "weapon": "Bron",
+                    "minimap": "Minimapa",
+                    "watermark": "Znak wodny",
+                    "killfeed": "Killfeed",
+                    "statuseffects": "Efekty statusu"
+                }
+            },
+            "keybinds_settings": {
+                "title": "Podpowiedzi klawiszy",
+                "description": "Lista przydatnych klawiszy na ekranie.",
+                "settings": {
+                    "visibility_title": "Pokaz podpowiedzi klawiszy",
+                    "visibility_description": "Wlacz/wylacz liste podpowiedzi klawiszy."
+                }
+            },
+            "binds_settings": {
+                "title": "Wlasne bindy",
+                "description": "Przypisz dowolny klawisz do dowolnej komendy.",
+                "add": "Dodaj bind",
+                "key_hint": "Nacisnij klawisz",
+                "command_placeholder": "komenda (bez /)",
+                "empty": "Brak wlasnych bindow. Kliknij 'Dodaj bind' aby utworzyc.",
+                "hint": "Komenda wykonuje sie tak, jakbys wpisal ja na czacie.",
+                "active_title": "Aktywne bindy",
+                "custom_title": "Wlasne bindy"
+            },
+            "compass_settings": {
+                "title": "Ustawienia kompasu",
+                "description": "Kompas na ekranie pokazujacy kierunek.",
+                "settings": {
+                    "visibility_title": "Widocznosc kompasu",
+                    "visibility_description": "Wybierz, kiedy kompas jest widoczny.",
+                    "style_title": "Styl kompasu",
+                    "style_description": "Wybierz styl kompasu."
+                },
+                "options": {
+                    "style": {
+                        "bar": "Pasek",
+                        "minimal": "Minimal",
+                        "cardinal": "Kierunek"
+                    },
+                    "visibility": {
+                        "always": "Zawsze",
+                        "vehicle": "W pojeździe",
+                        "foot": "Pieszo",
+                        "never": "Nigdy"
+                    }
+                }
+            },
+            "weapon_settings": {
+                "title": "Ustawienia broni",
+                "description": "Pokazuje bron trzymana w rekach.",
+                "settings": {
+                    "visibility_title": "Wyswietlanie broni",
+                    "visibility_description": "Pokaz/ukryj widget broni."
+                }
+            },
+            "pvp_settings": {
+                "title": "Tryb PVP",
+                "description": "Minimalistyczny HUD do walki + watermark serwera.",
+                "settings": {
+                    "enabled_title": "Tryb PVP",
+                    "enabled_description": "Ukryj zbędne elementy i przełącz na kompaktowe style PVP.",
+                    "watermark_visibility_title": "Watermark",
+                    "watermark_visibility_description": "Pokaż watermark serwera u góry.",
+                    "watermark_style_title": "Styl watermarka",
+                    "watermark_style_description": "Wybierz styl watermarka.",
+                    "watermark_font_title": "Czcionka watermarka",
+                    "watermark_font_description": "Rodzina czcionek tekstu watermarka.",
+                    "watermark_size_title": "Wielkość watermarka",
+                    "watermark_size_description": "Rozmiar tekstu watermarka.",
+                    "watermark_color_title": "Kolor watermarka",
+                    "watermark_color_description": "Kolor tekstu watermarka."
+                },
+                "options": {
+                    "watermark_style": {
+                        "default": "Domyślny",
+                        "line": "Linia",
+                        "bracket": "Nawiasy"
+                    },
+                    "watermark_color": {
+                        "text": "Tekst"
+                    }
+                }
+            },
+            "minimap_settings": {
+                "title": "Minimapa",
+                "description": "Ustawienia minimapy (radaru).",
+                "settings": {
+                    "visibility_title": "Widoczność minimapy",
+                    "visibility_description": "Wybierz, kiedy minimapa jest widoczna."
+                }
+            },
+            "killfeed_settings": {
+                "title": "Killfeed",
+                "description": "Lista zabójstw. Zawsze włączona w trybie PVP.",
+                "settings": {
+                    "enabled_title": "Killfeed",
+                    "enabled_description": "Pokaż killfeed.",
+                    "any_distance_title": "Każdy dystans",
+                    "any_distance_description": "Pokaż zabójstwa z każdego dystansu.",
+                    "distance_title": "Maks. dystans (m)",
+                    "distance_description": "Pokazuj tylko zabójstwa w tym zasięgu (gdy 'Każdy dystans' wyłączony).",
+                    "style_title": "Styl killfeeda",
+                    "style_description": "Wybierz styl killfeeda."
+                },
+                "options": {
+                    "style": {
+                        "default": "Domyślny",
+                        "minimal": "Minimalistyczny",
+                        "modern": "Nowoczesny"
+                    }
+                }
+            },
+            "warnings_settings": {
+                "title": "Ostrzeżenia",
+                "description": "Ekranowe alerty bezpieczeństwa.",
+                "settings": {
+                    "low_health_title": "Ostrzeżenie o niskim HP",
+                    "low_health_description": "Czerwona winieta + alert przy niskim HP.",
+                    "health_threshold_title": "Niskie HP przy (%)",
+                    "health_threshold_description": "Poziom HP wyzwalający ostrzeżenie.",
+                    "low_fuel_title": "Ostrzeżenie o paliwie",
+                    "low_fuel_description": "Alert przy niskim paliwie w pojeździe.",
+                    "fuel_threshold_title": "Niskie paliwo przy (%)",
+                    "fuel_threshold_description": "Poziom paliwa wyzwalający ostrzeżenie.",
+                    "seatbelt_title": "Ostrzeżenie o pasach",
+                    "seatbelt_description": "Alert przy jeździe bez zapiętych pasów.",
+                    "sound_title": "Dźwięki ostrzeżeń",
+                    "sound_description": "Odtwarzaj beep przy ostrzeżeniach."
+                },
+                "labels": {
+                    "seatbelt": "Zapnij pasy",
+                    "fuel": "Niskie paliwo",
+                    "health": "Niskie HP"
+                }
+            },
+            "statuseffects_settings": {
+                "title": "Efekty statusu",
+                "description": "Rząd aktywnych buffów / efektów.",
+                "settings": {
+                    "enabled_title": "Efekty statusu",
+                    "enabled_description": "Pokaż rząd aktywnych efektów."
+                }
+            },
+            "search_placeholder": "Szukaj ustawien",
+            "search_empty": "Nie znaleziono ustawien"
+        },
+        "vehiclemenu": {
+            "title": "Sterowanie pojazdem",
+            "close": "Zamknij",
+            "signals": "Kierunkowskazy",
+            "controls": "Sterowanie",
+            "doors": "Drzwi",
+            "left": "Lewy",
+            "hazards": "Awaryjne",
+            "right": "Prawy",
+            "engine": "Silnik",
+            "seatbelt": "Pasy",
+            "hood": "Maska",
+            "trunk": "Bagaznik",
+            "front_left": "Przod lewy",
+            "front_right": "Przod prawy",
+            "rear_left": "Tyl lewy",
+            "rear_right": "Tyl prawy",
+            "lights": "Swiatla"
+        }
+    },
+    "game": {
+        "vehicle": {
+            "not_in_veh": "Nie jesteś w samochodzie!"
+        },
+        "engine": {
+            "notify": {
+                "title": "Silnik"
+            },
+            "texts": {
+                "engine_on": "Silnik został uruchomiony!",
+                "engine_off": "Silnik został wyłączony!"
+            }
+        },
+        "nitro": {
+            "notify": {
+                "title": "Nitro"
+            },
+            "texts": {
+                "run_out_of_nitro": "Skończyło się nitro!",
+                "no_nitro": "Brak nitro!",
+                "cant_install_in_car": "Nie możesz zainstalować nitro, będąc w pojeździe!",
+                "filled_up_nitro": "Nitro zostało pomyślnie zainstalowane!",
+                "no_car": "Brak pobliskiego pojazdu!",
+                "you_are_not_owner": "Nie jesteś właścicielem tego pojazdu!",
+                "vehicle_have_nitro": "W tym samochodzie nitro już jest zainstalowane!"
+            }
+        },
+        "cruisemode": {
+            "notify": {
+                "title": "Tempomat"
+            },
+            "texts": {
+                "cruisemode_on": "Tempomat został włączony!",
+                "cruisemode_off": "Tempomat został wyłączony!",
+                "cruisemode_off_braking": "Tempomat został wyłączony z powodu hamowania!",
+                "cruisemode_too_slow": "Jedziesz za wolno, aby włączyć tempomat!",
+                "cruisemode_off_airborne": "Tempomat wyłączony – pojazd unosi się"
+            }
+        },
+        "seatbelt": {
+            "notify": {
+                "title": "Pasy"
+            },
+            "texts": {
+                "seatbelt_on": "Pasy zostały zapięte!",
+                "seatbelt_off": "Pasy zostały odpięte!"
+            }
+        }
+    }
+}

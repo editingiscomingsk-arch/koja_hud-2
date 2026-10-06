@@ -1,0 +1,404 @@
+{
+    "ui": {
+        "settings": {
+            "main_title": "AJUSTES",
+            "misc": {
+                "show": "Mostrar",
+                "over": "Mostrar si supera",
+                "under": "Mostrar si está por debajo de"
+            },
+            "categories": {
+                "hud": "PRINCIPAL",
+                "status": "ESTADO",
+                "carhud": "VELÓMETRO",
+                "binds": "BINDS"
+            },
+            "hud_settings": {
+                "title": "Ajustes del HUD",
+                "description": "Aquí puedes gestionar los ajustes principales del HUD.",
+                "settings": {
+                    "visibility_title": "Visibilidad del HUD",
+                    "visibility_description": "Ocultar/Mostrar el HUD principal"
+                }
+            },
+            "notify_settings": {
+                "title": "Ajustes de Notificaciones",
+                "description": "Aquí puedes gestionar los ajustes principales de las notificaciones.",
+                "settings": {
+                    "visibility_title": "Visibilidad de Notificaciones",
+                    "visibility_description": "Visibilidad de las notificaciones",
+                    "position_title": "Posición de Notificaciones",
+                    "position_description": "Elige una posición para las notificaciones",
+                    "style_title": "Estilo de Notificaciones",
+                    "style_description": "Elige un estilo para las notificaciones"
+                },
+                "options": {
+                    "position": {
+                        "top-right": "Arriba a la derecha",
+                        "bottom-left": "Abajo a la izquierda"
+                    },
+                    "style": {
+                        "default": "Predeterminado",
+                        "minimalistic": "Minimalista",
+                        "modern": "Moderno"
+                    }
+                },
+                "test_title": "Nuevo estilo",
+                "test_desc": "Asi se veran tus notificaciones!"
+            },
+            "status_settings": {
+                "title": "Ajustes de Estado",
+                "description": "Los ajustes de estado más utilizados en un solo lugar.",
+                "settings": {
+                    "visibility_title": "Visibilidad del Estado",
+                    "visibility_description": "Visibilidad de los componentes: Salud, Hambre, Sed",
+                    "style_title": "Estilo del Estado",
+                    "style_description": "Elige un estilo para el estado",
+                    "colors_title": "Colores del Estado",
+                    "colors_description": "Elige un color para cada componente del estado.",
+                    "borderradius_title": "Radio de Borde del Estado",
+                    "borderradius_description": "Proporción del radio de borde",
+                    "scale_title": "Escala del Estado",
+                    "scale_description": "Proporción de escala",
+                    "enabled_title": "Iconos visibles",
+                    "enabled_description": "Activa o desactiva iconos de estado individuales."
+                },
+                "options": {
+                    "style": {
+                        "default": "Predeterminado",
+                        "circle": "Circulos",
+                        "echo": "Echo",
+                        "minimal": "Minimal",
+                        "hexagon": "Hexágono"
+                    },
+                    "scale": {
+                        "small": "Pequeño",
+                        "default": "Predeterminado",
+                        "big": "Grande"
+                    },
+                    "colors": {
+                        "health": "Salud",
+                        "shield": "Armadura",
+                        "food": "Hambre",
+                        "water": "Sed",
+                        "stamina": "Resistencia",
+                        "oxygen": "Oxígeno",
+                        "voice": "Voz",
+                        "stress": "Estrés"
+                    }
+                }
+            },
+            "status_percents_settings": {
+                "title": "Ajustes de Porcentajes del Estado",
+                "description": "Los ajustes en porcentaje del estado más utilizados en un solo lugar.",
+                "settings": {
+                    "health_title": "Salud",
+                    "health_description": "Porcentaje de salud",
+                    "shield_title": "Armadura",
+                    "shield_description": "Porcentaje de armadura",
+                    "food_title": "Hambre",
+                    "food_description": "Porcentaje de hambre",
+                    "water_title": "Sed",
+                    "water_description": "Porcentaje de sed",
+                    "stamina_title": "Resistencia",
+                    "stamina_description": "Porcentaje de resistencia",
+                    "oxygen_title": "Oxígeno",
+                    "oxygen_description": "Porcentaje de oxígeno",
+                    "voice_title": "Voz",
+                    "voice_description": "Porcentaje de voz",
+                    "stress_title": "Estrés",
+                    "stress_description": "Porcentaje de estrés"
+                }
+            },
+            "carhud_settings": {
+                "title": "Ajustes del Velómetro",
+                "description": "Los ajustes del velocímetro más utilizados en un solo lugar.",
+                "settings": {
+                    "visibility_title": "Visibilidad del Velómetro",
+                    "visibility_description": "Visibilidad de los componentes: velocidad",
+                    "style_title": "Estilo del Velómetro",
+                    "style_description": "Elige un estilo para el velocímetro",
+                    "metertype_title": "Tipo de Medidor",
+                    "metertype_description": "Elige un tipo de medidor",
+                    "elements_title": "Elementos mostrados",
+                    "elements_description": "Muestra u oculta elementos del velocímetro."
+                },
+                "options": {
+                    "style": {
+                        "default": "Predeterminado",
+                        "compact": "Compacto",
+                        "gauge": "Indicador",
+                        "minimal": "Minimal",
+                        "pvp": "PVP"
+                    },
+                    "metertype": {
+                        "kmh": "KM/H",
+                        "mph": "MP/H"
+                    },
+                    "elements": {
+                        "gear": "Marcha",
+                        "fuel": "Combustible",
+                        "nitro": "Nitro",
+                        "seatbelt": "Cinturón",
+                        "engine": "Motor",
+                        "rpm": "RPM",
+                        "engineHealth": "Estado del motor",
+                        "lights": "Luces",
+                        "indicators": "Intermitentes",
+                        "cruise": "Crucero"
+                    }
+                }
+            },
+            "informations_settings": {
+                "title": "Ajustes de Información",
+                "description": "Ajustes para el panel de información.",
+                "settings": {
+                    "visibility_title": "Mostrar Información",
+                    "visibility_description": "Activa o desactiva la visualización del panel de información.",
+                    "opacity_title": "Opacidad",
+                    "opacity_description": "Establece la opacidad del panel de información (0 a 1).",
+                    "item_description": "Mostrar u ocultar este elemento.",
+                    "item_voice": "Mostrar microfono",
+                    "item_id": "Mostrar ID",
+                    "item_time": "Mostrar reloj",
+                    "item_cash": "Mostrar efectivo",
+                    "item_bank": "Mostrar banco",
+                    "item_job": "Mostrar trabajo",
+                    "item_discord": "Mostrar Discord",
+                    "item_logo": "Logo del servidor",
+                    "item_logo_description": "Muestra el logo del servidor (define la URL en js.json: ui.logo)."
+                }
+            },
+            "layout": {
+                "edit": "Editar diseno",
+                "edit_desc": "Arrastra los elementos del HUD donde quieras",
+                "save": "Guardar diseno",
+                "reset": "Restablecer posiciones",
+                "hint": "Arrastra las cajas para mover los elementos del HUD. Haz clic en guardar cuando termines.",
+                "items": {
+                    "status": "Estado",
+                    "carhud": "Velocimetro",
+                    "informations": "Informaciones",
+                    "notify": "Notificaciones",
+                    "progressbar": "Barra de progreso",
+                    "textui": "Text UI",
+                    "keybinds": "Teclas",
+                    "compass": "Brujula",
+                    "weapon": "Arma",
+                    "minimap": "Minimapa",
+                    "watermark": "Marca de agua",
+                    "killfeed": "Killfeed",
+                    "statuseffects": "Efectos de estado"
+                }
+            },
+            "keybinds_settings": {
+                "title": "Sugerencias de teclas",
+                "description": "Lista en pantalla de teclas utiles.",
+                "settings": {
+                    "visibility_title": "Mostrar sugerencias de teclas",
+                    "visibility_description": "Activar/desactivar la lista de teclas."
+                }
+            },
+            "binds_settings": {
+                "title": "Binds personalizados",
+                "description": "Asigna cualquier tecla a cualquier comando.",
+                "add": "Anadir bind",
+                "key_hint": "Pulsa una tecla",
+                "command_placeholder": "comando (sin /)",
+                "empty": "Aun no hay binds. Haz clic en 'Anadir bind'.",
+                "hint": "El comando se ejecuta como si lo escribieras en el chat.",
+                "active_title": "Atajos activos",
+                "custom_title": "Atajos personalizados"
+            },
+            "compass_settings": {
+                "title": "Ajustes de brujula",
+                "description": "Brujula en pantalla con tu rumbo.",
+                "settings": {
+                    "visibility_title": "Visibilidad de brujula",
+                    "visibility_description": "Elige cuándo se muestra la brújula.",
+                    "style_title": "Estilo de brujula",
+                    "style_description": "Elige un estilo de brujula."
+                },
+                "options": {
+                    "style": {
+                        "bar": "Barra",
+                        "minimal": "Minimal",
+                        "cardinal": "Cardinal"
+                    },
+                    "visibility": {
+                        "always": "Siempre",
+                        "vehicle": "En vehículo",
+                        "foot": "A pie",
+                        "never": "Nunca"
+                    }
+                }
+            },
+            "weapon_settings": {
+                "title": "Ajustes de arma",
+                "description": "Muestra el arma que llevas en las manos.",
+                "settings": {
+                    "visibility_title": "Mostrar arma",
+                    "visibility_description": "Mostrar/ocultar el widget de arma."
+                }
+            },
+            "pvp_settings": {
+                "title": "Modo PVP",
+                "description": "HUD de combate minimalista + marca del servidor.",
+                "settings": {
+                    "enabled_title": "Modo PVP",
+                    "enabled_description": "Oculta widgets no esenciales y cambia a estilos PVP compactos.",
+                    "watermark_visibility_title": "Marca de agua",
+                    "watermark_visibility_description": "Muestra la marca del servidor en la parte superior.",
+                    "watermark_style_title": "Estilo de marca",
+                    "watermark_style_description": "Elige un estilo de marca.",
+                    "watermark_font_title": "Fuente de marca",
+                    "watermark_font_description": "Familia tipográfica del texto de la marca.",
+                    "watermark_size_title": "Tamaño de marca",
+                    "watermark_size_description": "Tamaño del texto de la marca.",
+                    "watermark_color_title": "Color de marca",
+                    "watermark_color_description": "Color del texto de la marca."
+                },
+                "options": {
+                    "watermark_style": {
+                        "default": "Predeterminado",
+                        "line": "Línea",
+                        "bracket": "Corchetes"
+                    },
+                    "watermark_color": {
+                        "text": "Texto"
+                    }
+                }
+            },
+            "minimap_settings": {
+                "title": "Minimapa",
+                "description": "Ajustes del minimapa.",
+                "settings": {
+                    "visibility_title": "Visibilidad del minimapa",
+                    "visibility_description": "Elige cuándo se muestra el minimapa."
+                }
+            },
+            "killfeed_settings": {
+                "title": "Killfeed",
+                "description": "Registro de bajas. Siempre activo en modo PVP.",
+                "settings": {
+                    "enabled_title": "Killfeed",
+                    "enabled_description": "Mostrar el killfeed.",
+                    "any_distance_title": "Cualquier distancia",
+                    "any_distance_description": "Mostrar bajas a cualquier distancia.",
+                    "distance_title": "Distancia máx. (m)",
+                    "distance_description": "Mostrar solo bajas dentro de este rango (si 'Cualquier distancia' está desactivado).",
+                    "style_title": "Estilo del killfeed",
+                    "style_description": "Elige un estilo de killfeed."
+                },
+                "options": {
+                    "style": {
+                        "default": "Predeterminado",
+                        "minimal": "Minimalista",
+                        "modern": "Moderno"
+                    }
+                }
+            },
+            "warnings_settings": {
+                "title": "Avisos",
+                "description": "Alertas de seguridad en pantalla.",
+                "settings": {
+                    "low_health_title": "Aviso de salud baja",
+                    "low_health_description": "Viñeta roja + alerta con salud baja.",
+                    "health_threshold_title": "Salud baja en (%)",
+                    "health_threshold_description": "Nivel de salud que activa el aviso.",
+                    "low_fuel_title": "Aviso de combustible",
+                    "low_fuel_description": "Alerta con poco combustible.",
+                    "fuel_threshold_title": "Combustible bajo en (%)",
+                    "fuel_threshold_description": "Nivel de combustible que activa el aviso.",
+                    "seatbelt_title": "Aviso de cinturón",
+                    "seatbelt_description": "Alerta al conducir sin cinturón.",
+                    "sound_title": "Sonidos de aviso",
+                    "sound_description": "Reproduce un pitido con los avisos."
+                },
+                "labels": {
+                    "seatbelt": "Abróchate el cinturón",
+                    "fuel": "Combustible bajo",
+                    "health": "Salud baja"
+                }
+            },
+            "statuseffects_settings": {
+                "title": "Efectos de estado",
+                "description": "Fila de mejoras / efectos activos.",
+                "settings": {
+                    "enabled_title": "Efectos de estado",
+                    "enabled_description": "Muestra la fila de efectos activos."
+                }
+            },
+            "search_placeholder": "Buscar ajustes",
+            "search_empty": "No se encontraron ajustes"
+        },
+        "vehiclemenu": {
+            "title": "Controles del vehiculo",
+            "close": "Cerrar",
+            "signals": "Intermitentes",
+            "controls": "Controles",
+            "doors": "Puertas",
+            "left": "Izquierda",
+            "hazards": "Emergencia",
+            "right": "Derecha",
+            "engine": "Motor",
+            "seatbelt": "Cinturon",
+            "hood": "Capo",
+            "trunk": "Maletero",
+            "front_left": "Del. Izq.",
+            "front_right": "Del. Der.",
+            "rear_left": "Tras. Izq.",
+            "rear_right": "Tras. Der.",
+            "lights": "Luces"
+        }
+    },
+    "game": {
+        "vehicle": {
+            "not_in_veh": "¡No estás en el coche!"
+        },
+        "engine": {
+            "notify": {
+                "title": "Motor"
+            },
+            "texts": {
+                "engine_on": "¡El motor se ha encendido!",
+                "engine_off": "¡El motor se ha apagado!"
+            }
+        },
+        "nitro": {
+            "notify": {
+                "title": "Nitro"
+            },
+            "texts": {
+                "run_out_of_nitro": "¡Te has quedado sin nitro!",
+                "no_nitro": "¡No hay nitro disponible!",
+                "cant_install_in_car": "¡No puedes instalar nitro mientras estás en un vehículo!",
+                "filled_up_nitro": "¡Nitro instalado con éxito!",
+                "no_car": "¡No hay ningún vehículo cerca!",
+                "you_are_not_owner": "¡No eres el propietario de este vehículo!",
+                "vehicle_have_nitro": "¡Este coche ya tiene nitro instalado!"
+            }
+        },
+        "cruisemode": {
+            "notify": {
+                "title": "Control de crucero"
+            },
+            "texts": {
+                "cruisemode_on": "¡El control de crucero se ha activado!",
+                "cruisemode_off": "¡El control de crucero se ha desactivado!",
+                "cruisemode_off_braking": "¡El control de crucero se ha desactivado por el frenado!",
+                "cruisemode_too_slow": "¡Vas demasiado lento para activar el control de crucero!",
+                "cruisemode_off_airborne": "Control de crucero desactivado: vehículo en el aire"
+            }
+        },
+        "seatbelt": {
+            "notify": {
+                "title": "Cinturones"
+            },
+            "texts": {
+                "seatbelt_on": "¡El cinturón de seguridad está abrochado!",
+                "seatbelt_off": "¡El cinturón de seguridad está desabrochado!"
+            }
+        }
+    }
+}

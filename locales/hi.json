@@ -1,0 +1,404 @@
+{
+    "ui": {
+        "settings": {
+            "main_title": "सेटिंग्स",
+            "misc": {
+                "show": "दिखाएं",
+                "over": "यदि अधिक हो तो दिखाएं",
+                "under": "यदि कम हो तो दिखाएं"
+            },
+            "categories": {
+                "hud": "मुख्य",
+                "status": "स्थिति",
+                "carhud": "स्पीडोमीटर",
+                "binds": "BINDS"
+            },
+            "hud_settings": {
+                "title": "HUD सेटिंग्स",
+                "description": "यहाँ आप मुख्य HUD सेटिंग्स प्रबंधित कर सकते हैं।",
+                "settings": {
+                    "visibility_title": "HUD दृश्यता",
+                    "visibility_description": "मुख्य HUD छिपाएं/दिखाएं"
+                }
+            },
+            "notify_settings": {
+                "title": "सूचनाएँ सेटिंग्स",
+                "description": "यहाँ आप मुख्य सूचनाएँ सेटिंग्स प्रबंधित कर सकते हैं।",
+                "settings": {
+                    "visibility_title": "सूचनाओं की दृश्यता",
+                    "visibility_description": "सूचनाओं की दृश्यता",
+                    "position_title": "सूचनाओं की स्थिति",
+                    "position_description": "सूचनाओं के लिए एक स्थिति चुनें",
+                    "style_title": "सूचनाओं का स्टाइल",
+                    "style_description": "सूचनाओं के लिए एक स्टाइल चुनें"
+                },
+                "options": {
+                    "position": {
+                        "top-right": "ऊपर दाएँ",
+                        "bottom-left": "नीचे बाएँ"
+                    },
+                    "style": {
+                        "default": "डिफ़ॉल्ट",
+                        "minimalistic": "मिनिमलिस्टिक",
+                        "modern": "आधुनिक"
+                    }
+                },
+                "test_title": "Naya style",
+                "test_desc": "Aapki notifications aisi dikhengi!"
+            },
+            "status_settings": {
+                "title": "स्थिति सेटिंग्स",
+                "description": "एक ही स्थान पर सबसे अधिक प्रयुक्त स्थिति सेटिंग्स!",
+                "settings": {
+                    "visibility_title": "स्थिति दृश्यता",
+                    "visibility_description": "घटक: स्वास्थ्य, भूख, प्यास की दृश्यता",
+                    "style_title": "स्थिति का स्टाइल",
+                    "style_description": "स्थिति के लिए एक स्टाइल चुनें",
+                    "colors_title": "स्थिति के रंग",
+                    "colors_description": "स्थिति के प्रत्येक घटक के लिए एक रंग चुनें।",
+                    "borderradius_title": "स्थिति बॉर्डर रेडियस",
+                    "borderradius_description": "बॉर्डर रेडियस अनुपात",
+                    "scale_title": "स्थिति पैमाना",
+                    "scale_description": "पैमाना अनुपात",
+                    "enabled_title": "दृश्य आइकन",
+                    "enabled_description": "अलग-अलग स्टेटस आइकन चालू या बंद करें।"
+                },
+                "options": {
+                    "style": {
+                        "default": "डिफ़ॉल्ट",
+                        "circle": "Circle",
+                        "echo": "Echo",
+                        "minimal": "Minimal",
+                        "hexagon": "Hexagon"
+                    },
+                    "scale": {
+                        "small": "छोटा",
+                        "default": "डिफ़ॉल्ट",
+                        "big": "बड़ा"
+                    },
+                    "colors": {
+                        "health": "स्वास्थ्य",
+                        "shield": "कवच",
+                        "food": "भूख",
+                        "water": "प्यास",
+                        "stamina": "स्थायित्व",
+                        "oxygen": "ऑक्सीजन",
+                        "voice": "आवाज़",
+                        "stress": "तनाव"
+                    }
+                }
+            },
+            "status_percents_settings": {
+                "title": "स्थिति प्रतिशत सेटिंग्स",
+                "description": "एक ही स्थान पर सबसे अधिक प्रयुक्त स्थिति प्रतिशत सेटिंग्स!",
+                "settings": {
+                    "health_title": "स्वास्थ्य",
+                    "health_description": "स्वास्थ्य प्रतिशत",
+                    "shield_title": "कवच",
+                    "shield_description": "कवच प्रतिशत",
+                    "food_title": "भूख",
+                    "food_description": "भूख प्रतिशत",
+                    "water_title": "प्यास",
+                    "water_description": "प्यास प्रतिशत",
+                    "stamina_title": "स्थायित्व",
+                    "stamina_description": "स्थायित्व प्रतिशत",
+                    "oxygen_title": "ऑक्सीजन",
+                    "oxygen_description": "ऑक्सीजन प्रतिशत",
+                    "voice_title": "आवाज़",
+                    "voice_description": "आवाज़ प्रतिशत",
+                    "stress_title": "तनाव",
+                    "stress_description": "तनाव प्रतिशत"
+                }
+            },
+            "carhud_settings": {
+                "title": "स्पीडोमीटर सेटिंग्स",
+                "description": "एक ही स्थान पर सबसे अधिक प्रयुक्त स्पीडोमीटर सेटिंग्स!",
+                "settings": {
+                    "visibility_title": "स्पीडोमीटर दृश्यता",
+                    "visibility_description": "घटक: गति की दृश्यता",
+                    "style_title": "स्पीडोमीटर स्टाइल",
+                    "style_description": "स्पीडोमीटर के लिए एक स्टाइल चुनें",
+                    "metertype_title": "मीटर प्रकार",
+                    "metertype_description": "मीटर प्रकार चुनें",
+                    "elements_title": "दिखाए गए तत्व",
+                    "elements_description": "स्पीडोमीटर तत्व दिखाएं या छिपाएं।"
+                },
+                "options": {
+                    "style": {
+                        "default": "डिफ़ॉल्ट",
+                        "compact": "Compact",
+                        "gauge": "Gauge",
+                        "minimal": "Minimal",
+                        "pvp": "PVP"
+                    },
+                    "metertype": {
+                        "kmh": "KM/H",
+                        "mph": "MP/H"
+                    },
+                    "elements": {
+                        "gear": "गियर",
+                        "fuel": "ईंधन",
+                        "nitro": "नाइट्रो",
+                        "seatbelt": "सीटबेल्ट",
+                        "engine": "इंजन",
+                        "rpm": "RPM",
+                        "engineHealth": "इंजन स्थिति",
+                        "lights": "लाइट्स",
+                        "indicators": "इंडिकेटर",
+                        "cruise": "क्रूज़"
+                    }
+                }
+            },
+            "informations_settings": {
+                "title": "सूचना सेटिंग्स",
+                "description": "सूचना पैनल के लिए सेटिंग्स।",
+                "settings": {
+                    "visibility_title": "सूचनाएँ दिखाएं",
+                    "visibility_description": "सूचना पैनल की दृश्यता को टॉगल करें।",
+                    "opacity_title": "पारदर्शिता",
+                    "opacity_description": "सूचना पैनल की पारदर्शिता सेट करें (0 से 1 तक)।",
+                    "item_description": "Is element ko dikhayein ya chhupayein.",
+                    "item_voice": "Microphone dikhayein",
+                    "item_id": "ID dikhayein",
+                    "item_time": "Clock dikhayein",
+                    "item_cash": "Cash dikhayein",
+                    "item_bank": "Bank dikhayein",
+                    "item_job": "Job dikhayein",
+                    "item_discord": "Discord dikhayein",
+                    "item_logo": "सर्वर लोगो",
+                    "item_logo_description": "सर्वर लोगो दिखाएं (js.json में URL सेट करें: ui.logo)।"
+                }
+            },
+            "layout": {
+                "edit": "Layout edit karein",
+                "edit_desc": "HUD elements ko kahin bhi drag karein",
+                "save": "Layout save karein",
+                "reset": "Positions reset karein",
+                "hint": "HUD elements ko move karne ke liye boxes ko drag karein. Ho jane par save par click karein.",
+                "items": {
+                    "status": "Status",
+                    "carhud": "Speedometer",
+                    "informations": "Informations",
+                    "notify": "Notifications",
+                    "progressbar": "Progressbar",
+                    "textui": "Text UI",
+                    "keybinds": "Keybinds",
+                    "compass": "Compass",
+                    "weapon": "Weapon",
+                    "minimap": "Minimap",
+                    "watermark": "Watermark",
+                    "killfeed": "Killfeed",
+                    "statuseffects": "Status effects"
+                }
+            },
+            "keybinds_settings": {
+                "title": "Keybind Hints",
+                "description": "Screen par useful keys ki list.",
+                "settings": {
+                    "visibility_title": "Keybind hints dikhayein",
+                    "visibility_description": "Keybind hints list on/off karein."
+                }
+            },
+            "binds_settings": {
+                "title": "Custom Binds",
+                "description": "Kisi bhi key ko kisi bhi command se bind karein.",
+                "add": "Bind add karein",
+                "key_hint": "Koi key dabayein",
+                "command_placeholder": "command (bina /)",
+                "empty": "Abhi koi bind nahi. 'Bind add karein' par click karein.",
+                "hint": "Command aise chalti hai jaise aapne chat mein type ki ho.",
+                "active_title": "Active binds",
+                "custom_title": "Custom binds"
+            },
+            "compass_settings": {
+                "title": "Compass Settings",
+                "description": "Screen par aapki heading dikhata compass.",
+                "settings": {
+                    "visibility_title": "Compass Visibility",
+                    "visibility_description": "चुनें कि कम्पास कब दिखे।",
+                    "style_title": "Compass Style",
+                    "style_description": "Compass style chunein."
+                },
+                "options": {
+                    "style": {
+                        "bar": "Bar",
+                        "minimal": "Minimal",
+                        "cardinal": "Cardinal"
+                    },
+                    "visibility": {
+                        "always": "हमेशा",
+                        "vehicle": "वाहन में",
+                        "foot": "पैदल",
+                        "never": "कभी नहीं"
+                    }
+                }
+            },
+            "weapon_settings": {
+                "title": "Weapon Settings",
+                "description": "Haath mein pakdi hui weapon dikhata hai.",
+                "settings": {
+                    "visibility_title": "Weapon Display",
+                    "visibility_description": "Weapon widget dikhayein/chhupayein."
+                }
+            },
+            "pvp_settings": {
+                "title": "PVP मोड",
+                "description": "मिनिमल कॉम्बैट HUD + सर्वर वॉटरमार्क।",
+                "settings": {
+                    "enabled_title": "PVP मोड",
+                    "enabled_description": "गैर-जरूरी विजेट छिपाएं और कॉम्पैक्ट PVP स्टाइल पर स्विच करें।",
+                    "watermark_visibility_title": "वॉटरमार्क",
+                    "watermark_visibility_description": "ऊपर सर्वर वॉटरमार्क दिखाएं।",
+                    "watermark_style_title": "वॉटरमार्क स्टाइल",
+                    "watermark_style_description": "वॉटरमार्क स्टाइल चुनें।",
+                    "watermark_font_title": "वॉटरमार्क फ़ॉन्ट",
+                    "watermark_font_description": "वॉटरमार्क टेक्स्ट का फ़ॉन्ट।",
+                    "watermark_size_title": "वॉटरमार्क आकार",
+                    "watermark_size_description": "वॉटरमार्क टेक्स्ट का आकार।",
+                    "watermark_color_title": "वॉटरमार्क रंग",
+                    "watermark_color_description": "वॉटरमार्क टेक्स्ट का रंग।"
+                },
+                "options": {
+                    "watermark_style": {
+                        "default": "डिफ़ॉल्ट",
+                        "line": "लाइन",
+                        "bracket": "ब्रैकेट"
+                    },
+                    "watermark_color": {
+                        "text": "टेक्स्ट"
+                    }
+                }
+            },
+            "minimap_settings": {
+                "title": "मिनिमैप",
+                "description": "मिनिमैप सेटिंग्स।",
+                "settings": {
+                    "visibility_title": "मिनिमैप दृश्यता",
+                    "visibility_description": "चुनें कि मिनिमैप कब दिखे।"
+                }
+            },
+            "killfeed_settings": {
+                "title": "Killfeed",
+                "description": "किल फ़ीड। PVP मोड में हमेशा चालू।",
+                "settings": {
+                    "enabled_title": "Killfeed",
+                    "enabled_description": "किलफ़ीड दिखाएं।",
+                    "any_distance_title": "कोई भी दूरी",
+                    "any_distance_description": "किसी भी दूरी से किल दिखाएं।",
+                    "distance_title": "अधिकतम दूरी (m)",
+                    "distance_description": "केवल इस सीमा के भीतर किल दिखाएं ('कोई भी दूरी' बंद होने पर)।",
+                    "style_title": "किलफ़ीड स्टाइल",
+                    "style_description": "किलफ़ीड स्टाइल चुनें।"
+                },
+                "options": {
+                    "style": {
+                        "default": "डिफ़ॉल्ट",
+                        "minimal": "मिनिमल",
+                        "modern": "मॉडर्न"
+                    }
+                }
+            },
+            "warnings_settings": {
+                "title": "चेतावनियाँ",
+                "description": "स्क्रीन पर सुरक्षा अलर्ट।",
+                "settings": {
+                    "low_health_title": "कम HP चेतावनी",
+                    "low_health_description": "कम HP पर लाल विनेट + अलर्ट।",
+                    "health_threshold_title": "कम HP पर (%)",
+                    "health_threshold_description": "HP स्तर जो चेतावनी शुरू करे।",
+                    "low_fuel_title": "कम ईंधन चेतावनी",
+                    "low_fuel_description": "वाहन का ईंधन कम होने पर अलर्ट।",
+                    "fuel_threshold_title": "कम ईंधन पर (%)",
+                    "fuel_threshold_description": "ईंधन स्तर जो चेतावनी शुरू करे।",
+                    "seatbelt_title": "सीटबेल्ट चेतावनी",
+                    "seatbelt_description": "बिना सीटबेल्ट गाड़ी चलाने पर अलर्ट।",
+                    "sound_title": "चेतावनी ध्वनि",
+                    "sound_description": "चेतावनियों के साथ बीप बजाएं।"
+                },
+                "labels": {
+                    "seatbelt": "सीटबेल्ट लगाएं",
+                    "fuel": "कम ईंधन",
+                    "health": "कम HP"
+                }
+            },
+            "statuseffects_settings": {
+                "title": "स्टेटस इफेक्ट्स",
+                "description": "सक्रिय बफ़ / इफेक्ट्स की पंक्ति।",
+                "settings": {
+                    "enabled_title": "स्टेटस इफेक्ट्स",
+                    "enabled_description": "सक्रिय इफेक्ट्स की पंक्ति दिखाएं।"
+                }
+            },
+            "search_placeholder": "Settings search karein",
+            "search_empty": "Koi setting nahi mili"
+        },
+        "vehiclemenu": {
+            "title": "Vehicle Controls",
+            "close": "Close",
+            "signals": "Signals",
+            "controls": "Controls",
+            "doors": "Doors",
+            "left": "Left",
+            "hazards": "Hazards",
+            "right": "Right",
+            "engine": "Engine",
+            "seatbelt": "Seatbelt",
+            "hood": "Hood",
+            "trunk": "Trunk",
+            "front_left": "Front Left",
+            "front_right": "Front Right",
+            "rear_left": "Rear Left",
+            "rear_right": "Rear Right",
+            "lights": "Lights"
+        }
+    },
+    "game": {
+        "vehicle": {
+            "not_in_veh": "आप कार में नहीं हैं!"
+        },
+        "engine": {
+            "notify": {
+                "title": "इंजन"
+            },
+            "texts": {
+                "engine_on": "इंजन चालू कर दिया गया है!",
+                "engine_off": "इंजन बंद कर दिया गया है!"
+            }
+        },
+        "nitro": {
+            "notify": {
+                "title": "नाइट्रो"
+            },
+            "texts": {
+                "run_out_of_nitro": "आपका नाइट्रो खत्म हो गया है!",
+                "no_nitro": "कोई नाइट्रो उपलब्ध नहीं है!",
+                "cant_install_in_car": "आप वाहन में रहते हुए नाइट्रो इंस्टॉल नहीं कर सकते!",
+                "filled_up_nitro": "नाइट्रो सफलतापूर्वक इंस्टॉल कर दिया गया!",
+                "no_car": "पास में कोई वाहन नहीं है!",
+                "you_are_not_owner": "आप इस वाहन के मालिक नहीं हैं!",
+                "vehicle_have_nitro": "इस कार में पहले से ही नाइट्रो इंस्टॉल है"
+            }
+        },
+        "cruisemode": {
+            "notify": {
+                "title": "क्रूज मोड"
+            },
+            "texts": {
+                "cruisemode_on": "क्रूज कंट्रोल सक्रिय हो गया है!",
+                "cruisemode_off": "क्रूज कंट्रोल निष्क्रिय हो गया है!",
+                "cruisemode_off_braking": "ब्रेक लगाने के कारण क्रूज कंट्रोल निष्क्रिय हो गया है!",
+                "cruisemode_too_slow": "क्रूज कंट्रोल सक्रिय करने के लिए आपकी गति बहुत कम है!",
+                "cruisemode_off_airborne": "क्रूज कंट्रोल निष्क्रिय – वाहन हवा में है"
+            }
+        },
+        "seatbelt": {
+            "notify": {
+                "title": "सीटबेल्ट"
+            },
+            "texts": {
+                "seatbelt_on": "सीटबेल्ट बंध गया है!",
+                "seatbelt_off": "सीटबेल्ट खोल दिया गया है!"
+            }
+        }
+    }
+}

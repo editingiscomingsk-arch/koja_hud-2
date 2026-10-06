@@ -1,0 +1,404 @@
+{
+    "ui": {
+        "settings": {
+            "main_title": "SETTINGS",
+            "misc": {
+                "show": "Show",
+                "over": "Show if over",
+                "under": "Show if under"
+            },
+            "categories": {
+                "hud": "MAIN",
+                "status": "STATUS",
+                "carhud": "SPEEDOMETER",
+                "binds": "BINDS"
+            },
+            "hud_settings": {
+                "title": "HUD Settings",
+                "description": "Here you can manage main HUD settings.",
+                "settings": {
+                    "visibility_title": "HUD Visibility",
+                    "visibility_description": "Hide/Show main HUD"
+                }
+            },
+            "notify_settings": {
+                "title": "Notification Settings",
+                "description": "Here you can manage main notifications settings.",
+                "settings": {
+                    "visibility_title": "Notifications Visibility",
+                    "visibility_description": "Visibility for notifications",
+                    "position_title": "Notifications Position",
+                    "position_description": "Choose a position for notifications",
+                    "style_title": "Notifications Style",
+                    "style_description": "Choose a style for notifications"
+                },
+                "options": {
+                    "position": {
+                        "top-right": "Top Right",
+                        "bottom-left": "Bottom Left"
+                    },
+                    "style": {
+                        "default": "Default",
+                        "minimalistic": "Minimalistic",
+                        "modern": "Modern"
+                    }
+                },
+                "test_title": "New style",
+                "test_desc": "This is how your notifications will look!"
+            },
+            "status_settings": {
+                "title": "Status Settings",
+                "description": "Most used status settings in one place!",
+                "settings": {
+                    "visibility_title": "Status Visibility",
+                    "visibility_description": "Visibility for components: Health, Hunger, Thirst",
+                    "style_title": "Status Style",
+                    "style_description": "Choose a style for status",
+                    "colors_title": "Status Colors",
+                    "colors_description": "Pick a color for every component inside status.",
+                    "borderradius_title": "Status Border Radius",
+                    "borderradius_description": "Radius ratio",
+                    "scale_title": "Status Scale",
+                    "scale_description": "Scale ratio",
+                    "enabled_title": "Visible Icons",
+                    "enabled_description": "Enable or disable individual status icons."
+                },
+                "options": {
+                    "style": {
+                        "default": "Default",
+                        "circle": "Circle",
+                        "echo": "Echo",
+                        "minimal": "Minimal",
+                        "hexagon": "Hexagon"
+                    },
+                    "scale": {
+                        "small": "Small",
+                        "default": "Default",
+                        "big": "Big"
+                    },
+                    "colors": {
+                        "health": "Health",
+                        "shield": "Armour",
+                        "food": "Hunger",
+                        "water": "Thirst",
+                        "stamina": "Stamina",
+                        "oxygen": "Oxygen",
+                        "voice": "Voice",
+                        "stress": "Stress"
+                    }
+                }
+            },
+            "status_percents_settings": {
+                "title": "Status Percents Settings",
+                "description": "Most used status percents settings in one place!",
+                "settings": {
+                    "health_title": "Health",
+                    "health_description": "Health percents",
+                    "shield_title": "Armour",
+                    "shield_description": "Armour percents",
+                    "food_title": "Hunger",
+                    "food_description": "Hunger percents",
+                    "water_title": "Thirst",
+                    "water_description": "Thirst percents",
+                    "stamina_title": "Stamina",
+                    "stamina_description": "Stamina percents",
+                    "oxygen_title": "Oxygen",
+                    "oxygen_description": "Oxygen percents",
+                    "voice_title": "Voice",
+                    "voice_description": "Voice percents",
+                    "stress_title": "Stress",
+                    "stress_description": "Stress percents"
+                }
+            },
+            "carhud_settings": {
+                "title": "Speedometer Settings",
+                "description": "Most used speedometer settings in one place!",
+                "settings": {
+                    "visibility_title": "Speedometer Visibility",
+                    "visibility_description": "Visibility for components: speed",
+                    "style_title": "Speedometer Style",
+                    "style_description": "Choose a style for speedometer",
+                    "metertype_title": "Meter Type",
+                    "metertype_description": "Choose a meter type",
+                    "elements_title": "Displayed Elements",
+                    "elements_description": "Show or hide speedometer elements."
+                },
+                "options": {
+                    "style": {
+                        "default": "Default",
+                        "compact": "Compact",
+                        "gauge": "Gauge",
+                        "minimal": "Minimal",
+                        "pvp": "PVP"
+                    },
+                    "metertype": {
+                        "kmh": "KM/H",
+                        "mph": "MP/H"
+                    },
+                    "elements": {
+                        "gear": "Gear",
+                        "fuel": "Fuel",
+                        "nitro": "Nitro",
+                        "seatbelt": "Seatbelt",
+                        "engine": "Engine",
+                        "rpm": "RPM",
+                        "engineHealth": "Engine Health",
+                        "lights": "Lights",
+                        "indicators": "Indicators",
+                        "cruise": "Cruise"
+                    }
+                }
+            },
+            "informations_settings": {
+                "title": "Informations Settings",
+                "description": "Settings for the informations panel.",
+                "settings": {
+                    "visibility_title": "Show Informations",
+                    "visibility_description": "Toggle the visibility of the informations panel.",
+                    "opacity_title": "Opacity",
+                    "opacity_description": "Set the opacity of the informations panel (0 to 1).",
+                    "item_description": "Show or hide this element.",
+                    "item_voice": "Show Microphone",
+                    "item_id": "Show ID",
+                    "item_time": "Show Clock",
+                    "item_cash": "Show Cash",
+                    "item_bank": "Show Bank",
+                    "item_job": "Show Job",
+                    "item_discord": "Show Discord",
+                    "item_logo": "Server Logo",
+                    "item_logo_description": "Show the server logo (set the URL in js.json: ui.logo)."
+                }
+            },
+            "layout": {
+                "edit": "Edit layout",
+                "edit_desc": "Drag HUD elements wherever you want",
+                "save": "Save layout",
+                "reset": "Reset positions",
+                "hint": "Drag the boxes to move HUD elements. Click save when you are done.",
+                "items": {
+                    "status": "Status",
+                    "carhud": "Speedometer",
+                    "informations": "Informations",
+                    "notify": "Notifications",
+                    "progressbar": "Progressbar",
+                    "textui": "Text UI",
+                    "keybinds": "Keybinds",
+                    "compass": "Compass",
+                    "weapon": "Weapon",
+                    "minimap": "Minimap",
+                    "watermark": "Watermark",
+                    "killfeed": "Killfeed",
+                    "statuseffects": "Status effects"
+                }
+            },
+            "keybinds_settings": {
+                "title": "Keybind Hints",
+                "description": "On-screen list of useful keybinds.",
+                "settings": {
+                    "visibility_title": "Show Keybind Hints",
+                    "visibility_description": "Toggle the on-screen keybind hints list."
+                }
+            },
+            "binds_settings": {
+                "title": "Custom Binds",
+                "description": "Bind any key to any command.",
+                "add": "Add bind",
+                "key_hint": "Press a key",
+                "command_placeholder": "command (without /)",
+                "empty": "No custom binds yet. Click 'Add bind' to create one.",
+                "hint": "The command runs as if you typed it in chat.",
+                "active_title": "Active binds",
+                "custom_title": "Custom binds"
+            },
+            "compass_settings": {
+                "title": "Compass Settings",
+                "description": "On-screen compass showing your heading.",
+                "settings": {
+                    "visibility_title": "Compass Visibility",
+                    "visibility_description": "Choose when the compass is shown.",
+                    "style_title": "Compass Style",
+                    "style_description": "Choose a compass style."
+                },
+                "options": {
+                    "style": {
+                        "bar": "Bar",
+                        "minimal": "Minimal",
+                        "cardinal": "Cardinal"
+                    },
+                    "visibility": {
+                        "always": "Always",
+                        "vehicle": "In Vehicle",
+                        "foot": "On Foot",
+                        "never": "Never"
+                    }
+                }
+            },
+            "weapon_settings": {
+                "title": "Weapon Settings",
+                "description": "Shows the weapon currently in your hands.",
+                "settings": {
+                    "visibility_title": "Weapon Display",
+                    "visibility_description": "Show/hide the equipped weapon widget."
+                }
+            },
+            "pvp_settings": {
+                "title": "PVP Mode",
+                "description": "Minimalist combat HUD + server watermark.",
+                "settings": {
+                    "enabled_title": "PVP Mode",
+                    "enabled_description": "Hide non-essential widgets and switch to compact PVP styles.",
+                    "watermark_visibility_title": "Watermark",
+                    "watermark_visibility_description": "Show the server watermark at the top.",
+                    "watermark_style_title": "Watermark Style",
+                    "watermark_style_description": "Choose a watermark style.",
+                    "watermark_font_title": "Watermark Font",
+                    "watermark_font_description": "Font family for the watermark text.",
+                    "watermark_size_title": "Watermark Size",
+                    "watermark_size_description": "Text size of the watermark.",
+                    "watermark_color_title": "Watermark Color",
+                    "watermark_color_description": "Color of the watermark text."
+                },
+                "options": {
+                    "watermark_style": {
+                        "default": "Default",
+                        "line": "Line",
+                        "bracket": "Bracket"
+                    },
+                    "watermark_color": {
+                        "text": "Text"
+                    }
+                }
+            },
+            "minimap_settings": {
+                "title": "Minimap",
+                "description": "Radar map settings.",
+                "settings": {
+                    "visibility_title": "Minimap Visibility",
+                    "visibility_description": "Choose when the minimap is shown."
+                }
+            },
+            "killfeed_settings": {
+                "title": "Killfeed",
+                "description": "Combat kill feed. Always on in PVP mode.",
+                "settings": {
+                    "enabled_title": "Killfeed",
+                    "enabled_description": "Show the killfeed.",
+                    "any_distance_title": "Any Distance",
+                    "any_distance_description": "Show kills from any distance.",
+                    "distance_title": "Max Distance (m)",
+                    "distance_description": "Only show kills within this range (when 'Any Distance' is off).",
+                    "style_title": "Killfeed Style",
+                    "style_description": "Choose a killfeed style."
+                },
+                "options": {
+                    "style": {
+                        "default": "Default",
+                        "minimal": "Minimal",
+                        "modern": "Modern"
+                    }
+                }
+            },
+            "warnings_settings": {
+                "title": "Warnings",
+                "description": "On-screen safety alerts.",
+                "settings": {
+                    "low_health_title": "Low Health Warning",
+                    "low_health_description": "Red vignette + alert when health is low.",
+                    "health_threshold_title": "Low Health At (%)",
+                    "health_threshold_description": "Health level that triggers the warning.",
+                    "low_fuel_title": "Low Fuel Warning",
+                    "low_fuel_description": "Alert when the vehicle fuel is low.",
+                    "fuel_threshold_title": "Low Fuel At (%)",
+                    "fuel_threshold_description": "Fuel level that triggers the warning.",
+                    "seatbelt_title": "Seatbelt Warning",
+                    "seatbelt_description": "Alert when driving without a seatbelt.",
+                    "sound_title": "Warning Sounds",
+                    "sound_description": "Play a beep with warnings."
+                },
+                "labels": {
+                    "seatbelt": "Fasten Seatbelt",
+                    "fuel": "Low Fuel",
+                    "health": "Low Health"
+                }
+            },
+            "statuseffects_settings": {
+                "title": "Status Effects",
+                "description": "Row of active buffs / effects.",
+                "settings": {
+                    "enabled_title": "Status Effects",
+                    "enabled_description": "Show the active effects row."
+                }
+            },
+            "search_placeholder": "Search settings",
+            "search_empty": "No settings found"
+        },
+        "vehiclemenu": {
+            "title": "Vehicle Controls",
+            "close": "Close",
+            "signals": "Signals",
+            "controls": "Controls",
+            "doors": "Doors",
+            "left": "Left",
+            "hazards": "Hazards",
+            "right": "Right",
+            "engine": "Engine",
+            "seatbelt": "Seatbelt",
+            "hood": "Hood",
+            "trunk": "Trunk",
+            "front_left": "Front Left",
+            "front_right": "Front Right",
+            "rear_left": "Rear Left",
+            "rear_right": "Rear Right",
+            "lights": "Lights"
+        }
+    },
+    "game": {
+        "vehicle": {
+            "not_in_veh": "You are not in the car!"
+        },
+        "engine": {
+            "notify": {
+                "title": "Engine"
+            },
+            "texts": {
+                "engine_on": "The engine has been turned on!",
+                "engine_off": "The engine has been turned off!"
+            }
+        },
+        "nitro": {
+            "notify": {
+                "title": "Nitro"
+            },
+            "texts": {
+                "run_out_of_nitro": "You've run out of nitro!",
+                "no_nitro": "No nitro available!",
+                "cant_install_in_car": "You cannot install nitro while in a vehicle!",
+                "filled_up_nitro": "Nitro successfully installed!",
+                "no_car": "No vehicle nearby!",
+                "you_are_not_owner": "You are not owner of this vehicle!",
+                "vehicle_have_nitro": "Nitro already installed in this car"
+            }
+        },
+        "cruisemode": {
+            "notify": {
+                "title": "Cruisemode"
+            },
+            "texts": {
+                "cruisemode_on": "Cruise control has been enabled!",
+                "cruisemode_off": "Cruise control has been disabled!",
+                "cruisemode_off_braking": "Cruise control has been disabled due to braking!",
+                "cruisemode_too_slow": "You are driving too slow to enable cruise control!",
+                "cruisemode_off_airborne": "Cruise control disabled – vehicle airborne"
+            }
+        },
+        "seatbelt": {
+            "notify": {
+                "title": "Seatbelt"
+            },
+            "texts": {
+                "seatbelt_on": "Seatbelt has been fastened!",
+                "seatbelt_off": "Seatbelt has been unfastened!"
+            }
+        }
+    }
+}

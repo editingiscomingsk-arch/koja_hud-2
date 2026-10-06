@@ -1,0 +1,404 @@
+{
+    "ui": {
+        "settings": {
+            "main_title": "PARAMÈTRES",
+            "misc": {
+                "show": "Afficher",
+                "over": "Afficher si supérieur à",
+                "under": "Afficher si inférieur à"
+            },
+            "categories": {
+                "hud": "PRINCIPAL",
+                "status": "STATUT",
+                "carhud": "COMPTEUR DE VITESSE",
+                "binds": "BINDS"
+            },
+            "hud_settings": {
+                "title": "Paramètres du HUD",
+                "description": "Ici, vous pouvez gérer les paramètres principaux du HUD.",
+                "settings": {
+                    "visibility_title": "Visibilité du HUD",
+                    "visibility_description": "Masquer/Afficher le HUD principal"
+                }
+            },
+            "notify_settings": {
+                "title": "Paramètres de notification",
+                "description": "Ici, vous pouvez gérer les paramètres principaux des notifications.",
+                "settings": {
+                    "visibility_title": "Visibilité des notifications",
+                    "visibility_description": "Visibilité des notifications",
+                    "position_title": "Position des notifications",
+                    "position_description": "Choisissez une position pour les notifications",
+                    "style_title": "Style des notifications",
+                    "style_description": "Choisissez un style pour les notifications"
+                },
+                "options": {
+                    "position": {
+                        "top-right": "Haut à droite",
+                        "bottom-left": "Bas à gauche"
+                    },
+                    "style": {
+                        "default": "Défaut",
+                        "minimalistic": "Minimaliste",
+                        "modern": "Moderne"
+                    }
+                },
+                "test_title": "Nouveau style",
+                "test_desc": "Voici a quoi ressembleront vos notifications !"
+            },
+            "status_settings": {
+                "title": "Paramètres du statut",
+                "description": "Les paramètres de statut les plus utilisés regroupés en un seul endroit !",
+                "settings": {
+                    "visibility_title": "Visibilité du statut",
+                    "visibility_description": "Visibilité des composants : Santé, Faim, Soif",
+                    "style_title": "Style du statut",
+                    "style_description": "Choisissez un style pour le statut",
+                    "colors_title": "Couleurs du statut",
+                    "colors_description": "Choisissez une couleur pour chaque composant du statut.",
+                    "borderradius_title": "Rayon de bordure du statut",
+                    "borderradius_description": "Ratio du rayon de bordure",
+                    "scale_title": "Échelle du statut",
+                    "scale_description": "Ratio d'échelle",
+                    "enabled_title": "Icônes visibles",
+                    "enabled_description": "Activez ou désactivez des icônes de statut individuelles."
+                },
+                "options": {
+                    "style": {
+                        "default": "Défaut",
+                        "circle": "Cercles",
+                        "echo": "Echo",
+                        "minimal": "Minimal",
+                        "hexagon": "Hexagone"
+                    },
+                    "scale": {
+                        "small": "Petit",
+                        "default": "Défaut",
+                        "big": "Grand"
+                    },
+                    "colors": {
+                        "health": "Santé",
+                        "shield": "Armure",
+                        "food": "Faim",
+                        "water": "Soif",
+                        "stamina": "Endurance",
+                        "oxygen": "Oxygène",
+                        "voice": "Voix",
+                        "stress": "Stress"
+                    }
+                }
+            },
+            "status_percents_settings": {
+                "title": "Paramètres en pourcentage du statut",
+                "description": "Les paramètres en pourcentage du statut les plus utilisés regroupés en un seul endroit !",
+                "settings": {
+                    "health_title": "Santé",
+                    "health_description": "Pourcentage de santé",
+                    "shield_title": "Armure",
+                    "shield_description": "Pourcentage d'armure",
+                    "food_title": "Faim",
+                    "food_description": "Pourcentage de faim",
+                    "water_title": "Soif",
+                    "water_description": "Pourcentage de soif",
+                    "stamina_title": "Endurance",
+                    "stamina_description": "Pourcentage d'endurance",
+                    "oxygen_title": "Oxygène",
+                    "oxygen_description": "Pourcentage d'oxygène",
+                    "voice_title": "Voix",
+                    "voice_description": "Pourcentage de voix",
+                    "stress_title": "Stress",
+                    "stress_description": "Pourcentage de stress"
+                }
+            },
+            "carhud_settings": {
+                "title": "Paramètres du compteur de vitesse",
+                "description": "Les paramètres du compteur de vitesse les plus utilisés regroupés en un seul endroit !",
+                "settings": {
+                    "visibility_title": "Visibilité du compteur de vitesse",
+                    "visibility_description": "Visibilité des composants : Vitesse",
+                    "style_title": "Style du compteur de vitesse",
+                    "style_description": "Choisissez un style pour le compteur de vitesse",
+                    "metertype_title": "Type de compteur",
+                    "metertype_description": "Choisissez un type de compteur",
+                    "elements_title": "Éléments affichés",
+                    "elements_description": "Afficher ou masquer les éléments du compteur."
+                },
+                "options": {
+                    "style": {
+                        "default": "Défaut",
+                        "compact": "Compact",
+                        "gauge": "Jauge",
+                        "minimal": "Minimal",
+                        "pvp": "PVP"
+                    },
+                    "metertype": {
+                        "kmh": "KM/H",
+                        "mph": "MP/H"
+                    },
+                    "elements": {
+                        "gear": "Vitesse",
+                        "fuel": "Carburant",
+                        "nitro": "Nitro",
+                        "seatbelt": "Ceinture",
+                        "engine": "Moteur",
+                        "rpm": "Régime",
+                        "engineHealth": "État moteur",
+                        "lights": "Phares",
+                        "indicators": "Clignotants",
+                        "cruise": "Régulateur"
+                    }
+                }
+            },
+            "informations_settings": {
+                "title": "Paramètres des informations",
+                "description": "Paramètres pour le panneau d'informations.",
+                "settings": {
+                    "visibility_title": "Afficher les informations",
+                    "visibility_description": "Activez ou désactivez l'affichage du panneau d'informations.",
+                    "opacity_title": "Opacité",
+                    "opacity_description": "Réglez l'opacité du panneau d'informations (0 à 1).",
+                    "item_description": "Afficher ou masquer cet element.",
+                    "item_voice": "Afficher le micro",
+                    "item_id": "Afficher l'ID",
+                    "item_time": "Afficher l'horloge",
+                    "item_cash": "Afficher l'argent",
+                    "item_bank": "Afficher la banque",
+                    "item_job": "Afficher le metier",
+                    "item_discord": "Afficher Discord",
+                    "item_logo": "Logo du serveur",
+                    "item_logo_description": "Afficher le logo du serveur (définir l'URL dans js.json : ui.logo)."
+                }
+            },
+            "layout": {
+                "edit": "Modifier la disposition",
+                "edit_desc": "Faites glisser les elements du HUD ou vous voulez",
+                "save": "Enregistrer",
+                "reset": "Reinitialiser les positions",
+                "hint": "Faites glisser les cadres pour deplacer les elements du HUD. Cliquez sur enregistrer une fois termine.",
+                "items": {
+                    "status": "Statut",
+                    "carhud": "Compteur",
+                    "informations": "Informations",
+                    "notify": "Notifications",
+                    "progressbar": "Barre de progression",
+                    "textui": "Text UI",
+                    "keybinds": "Touches",
+                    "compass": "Boussole",
+                    "weapon": "Arme",
+                    "minimap": "Minimap",
+                    "watermark": "Filigrane",
+                    "killfeed": "Killfeed",
+                    "statuseffects": "Effets de statut"
+                }
+            },
+            "keybinds_settings": {
+                "title": "Rappels de touches",
+                "description": "Liste des touches utiles a l'ecran.",
+                "settings": {
+                    "visibility_title": "Afficher les rappels de touches",
+                    "visibility_description": "Activer/desactiver la liste des touches."
+                }
+            },
+            "binds_settings": {
+                "title": "Binds personnalises",
+                "description": "Associez n'importe quelle touche a une commande.",
+                "add": "Ajouter un bind",
+                "key_hint": "Appuyez sur une touche",
+                "command_placeholder": "commande (sans /)",
+                "empty": "Aucun bind pour le moment. Cliquez sur 'Ajouter un bind'.",
+                "hint": "La commande s'execute comme si vous l'aviez tapee dans le chat.",
+                "active_title": "Raccourcis actifs",
+                "custom_title": "Raccourcis personnalises"
+            },
+            "compass_settings": {
+                "title": "Parametres de boussole",
+                "description": "Boussole a l'ecran indiquant votre cap.",
+                "settings": {
+                    "visibility_title": "Visibilite de la boussole",
+                    "visibility_description": "Choisissez quand la boussole s'affiche.",
+                    "style_title": "Style de boussole",
+                    "style_description": "Choisissez un style de boussole."
+                },
+                "options": {
+                    "style": {
+                        "bar": "Barre",
+                        "minimal": "Minimal",
+                        "cardinal": "Cardinal"
+                    },
+                    "visibility": {
+                        "always": "Toujours",
+                        "vehicle": "En véhicule",
+                        "foot": "À pied",
+                        "never": "Jamais"
+                    }
+                }
+            },
+            "weapon_settings": {
+                "title": "Parametres d'arme",
+                "description": "Affiche l'arme actuellement en main.",
+                "settings": {
+                    "visibility_title": "Affichage de l'arme",
+                    "visibility_description": "Afficher/masquer le widget d'arme."
+                }
+            },
+            "pvp_settings": {
+                "title": "Mode PVP",
+                "description": "HUD de combat minimaliste + filigrane du serveur.",
+                "settings": {
+                    "enabled_title": "Mode PVP",
+                    "enabled_description": "Masque les widgets non essentiels et passe aux styles PVP compacts.",
+                    "watermark_visibility_title": "Filigrane",
+                    "watermark_visibility_description": "Affiche le filigrane du serveur en haut.",
+                    "watermark_style_title": "Style du filigrane",
+                    "watermark_style_description": "Choisissez un style de filigrane.",
+                    "watermark_font_title": "Police du filigrane",
+                    "watermark_font_description": "Police du texte du filigrane.",
+                    "watermark_size_title": "Taille du filigrane",
+                    "watermark_size_description": "Taille du texte du filigrane.",
+                    "watermark_color_title": "Couleur du filigrane",
+                    "watermark_color_description": "Couleur du texte du filigrane."
+                },
+                "options": {
+                    "watermark_style": {
+                        "default": "Défaut",
+                        "line": "Ligne",
+                        "bracket": "Crochets"
+                    },
+                    "watermark_color": {
+                        "text": "Texte"
+                    }
+                }
+            },
+            "minimap_settings": {
+                "title": "Minicarte",
+                "description": "Paramètres de la minicarte.",
+                "settings": {
+                    "visibility_title": "Visibilité de la minicarte",
+                    "visibility_description": "Choisissez quand la minicarte s'affiche."
+                }
+            },
+            "killfeed_settings": {
+                "title": "Killfeed",
+                "description": "Journal des éliminations. Toujours actif en mode PVP.",
+                "settings": {
+                    "enabled_title": "Killfeed",
+                    "enabled_description": "Afficher le killfeed.",
+                    "any_distance_title": "Toute distance",
+                    "any_distance_description": "Afficher les éliminations à toute distance.",
+                    "distance_title": "Distance max (m)",
+                    "distance_description": "Afficher uniquement les éliminations à cette portée (si 'Toute distance' est désactivé).",
+                    "style_title": "Style du killfeed",
+                    "style_description": "Choisissez un style de killfeed."
+                },
+                "options": {
+                    "style": {
+                        "default": "Défaut",
+                        "minimal": "Minimaliste",
+                        "modern": "Moderne"
+                    }
+                }
+            },
+            "warnings_settings": {
+                "title": "Alertes",
+                "description": "Alertes de sécurité à l'écran.",
+                "settings": {
+                    "low_health_title": "Alerte santé faible",
+                    "low_health_description": "Vignette rouge + alerte quand la santé est faible.",
+                    "health_threshold_title": "Santé faible à (%)",
+                    "health_threshold_description": "Niveau de santé déclenchant l'alerte.",
+                    "low_fuel_title": "Alerte carburant",
+                    "low_fuel_description": "Alerte quand le carburant est bas.",
+                    "fuel_threshold_title": "Carburant bas à (%)",
+                    "fuel_threshold_description": "Niveau de carburant déclenchant l'alerte.",
+                    "seatbelt_title": "Alerte ceinture",
+                    "seatbelt_description": "Alerte en conduisant sans ceinture.",
+                    "sound_title": "Sons d'alerte",
+                    "sound_description": "Jouer un bip avec les alertes."
+                },
+                "labels": {
+                    "seatbelt": "Attachez la ceinture",
+                    "fuel": "Carburant bas",
+                    "health": "Santé faible"
+                }
+            },
+            "statuseffects_settings": {
+                "title": "Effets de statut",
+                "description": "Rangée d'effets / bonus actifs.",
+                "settings": {
+                    "enabled_title": "Effets de statut",
+                    "enabled_description": "Afficher la rangée d'effets actifs."
+                }
+            },
+            "search_placeholder": "Rechercher un parametre",
+            "search_empty": "Aucun parametre trouve"
+        },
+        "vehiclemenu": {
+            "title": "Controles du vehicule",
+            "close": "Fermer",
+            "signals": "Clignotants",
+            "controls": "Controles",
+            "doors": "Portes",
+            "left": "Gauche",
+            "hazards": "Detresse",
+            "right": "Droite",
+            "engine": "Moteur",
+            "seatbelt": "Ceinture",
+            "hood": "Capot",
+            "trunk": "Coffre",
+            "front_left": "Avant Gauche",
+            "front_right": "Avant Droit",
+            "rear_left": "Arriere Gauche",
+            "rear_right": "Arriere Droit",
+            "lights": "Phares"
+        }
+    },
+    "game": {
+        "vehicle": {
+            "not_in_veh": "Vous n'êtes pas dans la voiture !"
+        },
+        "engine": {
+            "notify": {
+                "title": "Moteur"
+            },
+            "texts": {
+                "engine_on": "Le moteur a été démarré !",
+                "engine_off": "Le moteur a été arrêté !"
+            }
+        },
+        "nitro": {
+            "notify": {
+                "title": "Nitro"
+            },
+            "texts": {
+                "run_out_of_nitro": "Votre nitro est épuisé !",
+                "no_nitro": "Aucun nitro disponible !",
+                "cant_install_in_car": "Vous ne pouvez pas installer de nitro en étant dans un véhicule !",
+                "filled_up_nitro": "Nitro installé avec succès !",
+                "no_car": "Aucun véhicule à proximité !",
+                "you_are_not_owner": "Vous n'êtes pas le propriétaire de ce véhicule !",
+                "vehicle_have_nitro": "Ce véhicule a déjà du nitro installé !"
+            }
+        },
+        "cruisemode": {
+            "notify": {
+                "title": "Régulateur de vitesse"
+            },
+            "texts": {
+                "cruisemode_on": "Le régulateur de vitesse est activé !",
+                "cruisemode_off": "Le régulateur de vitesse est désactivé !",
+                "cruisemode_off_braking": "Le régulateur de vitesse est désactivé en raison du freinage !",
+                "cruisemode_too_slow": "Vous conduisez trop lentement pour activer le régulateur de vitesse !",
+                "cruisemode_off_airborne": "Régulateur désactivé – véhicule en l'air"
+            }
+        },
+        "seatbelt": {
+            "notify": {
+                "title": "Ceinture de sécurité"
+            },
+            "texts": {
+                "seatbelt_on": "La ceinture de sécurité est bouclée !",
+                "seatbelt_off": "La ceinture de sécurité est desserrée !"
+            }
+        }
+    }
+}
