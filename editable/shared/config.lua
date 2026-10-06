@@ -4,7 +4,7 @@ KOJA = {}
 KOJA.Debug = false
 
 -- Language file loaded from locales/ (en, pl, de, es, fr, hi).
-KOJA.Locale = 'en'
+KOJA.Locale = 'cs'
 
 -- Chat command that opens the HUD settings menu.
 KOJA.SettingsCommand = 'settings'
@@ -88,7 +88,7 @@ KOJA.CruiseMode = {
 }
 
 KOJA.Compass = {
-    Enabled = true
+    Enabled = false
 }
 
 -- Client refresh intervals in milliseconds.
@@ -102,8 +102,8 @@ KOJA.Refresh = {
 
 -- Server name shown at the top of the screen (style and visibility are player settings).
 KOJA.Watermark = {
-    Enabled = true,
-    Text = 'HEXEL RP'
+    Enabled = false,
+    Text = ''
 }
 
 -- Vehicle control menu (turn signals, doors, hood, trunk, engine, seatbelt).
