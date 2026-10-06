@@ -22,11 +22,11 @@ KOJA.Notify = 'hud'
 
 -- Set a component to true to force-hide it for everyone.
 KOJA.HideComponents = {
-    status = false,
-    carhud = false,
+    status = true,
+    carhud = true,
     progressbar = false,
-    notify = false,
-    textui = false,
+    notify = true,
+    textui = true,
     informations = false
 }
 
@@ -47,7 +47,7 @@ KOJA.Microphone = {
 }
 
 KOJA.Nitro = {
-    Enabled = true,
+    Enabled = false,
     Key = 'N',
     Desc = 'Toggle nitro',
     -- Owned vehicles table: 'owned_vehicles' (ESX), 'player_vehicles' (QBCore) or your own.
@@ -65,14 +65,14 @@ KOJA.Nitro = {
 }
 
 KOJA.Engine = {
-    Enabled = true,
+    Enabled = false,
     Key = 'B',
     Desc = 'Toggle engine',
     StartEngineOnEntering = false
 }
 
 KOJA.Seatbelt = {
-    Enabled = true,
+    Enabled = false,
     Key = 'L',
     Desc = 'Toggle seatbelt',
     -- Speed in km/h above which an unbelted player is thrown through the windshield on a crash.
@@ -80,7 +80,7 @@ KOJA.Seatbelt = {
 }
 
 KOJA.CruiseMode = {
-    Enabled = true,
+    Enabled = false,
     Key = 'T',
     Desc = 'Toggle cruise control',
     -- Minimum speed in km/h to engage cruise control.
@@ -108,7 +108,7 @@ KOJA.Watermark = {
 
 -- Vehicle control menu (turn signals, doors, hood, trunk, engine, seatbelt).
 KOJA.VehicleMenu = {
-    Enabled = true,
+    Enabled = false,
     Key = 'U',
     Command = 'vehicle',
     Desc = 'Open vehicle control menu'
@@ -129,7 +129,7 @@ KOJA.StatusEffects = {
 
 -- Custom square minimap. Players move and resize it in the layout editor (Settings -> Edit layout).
 KOJA.MiniMap = {
-    Enabled = true,
+    Enabled = false,
 }
 
 -- More UI options (keybind hints, Discord, logo, default player settings) live in editable/shared/js.json.
