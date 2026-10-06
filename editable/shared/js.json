@@ -108,10 +108,10 @@
             }
         },
         "keybinds": {
-            "visibility": true
+            "visibility": false
         },
         "compass": {
-            "visibility": "always",
+            "visibility": "never",
             "style": "bar"
         },
         "weapon": {
@@ -121,7 +121,7 @@
             "visibility": "always"
         },
         "watermark": {
-            "visibility": true,
+            "visibility": false,
             "style": "default",
             "font": "Poppins",
             "size": 0.95,
@@ -150,11 +150,31 @@
         },
         "customBinds": [],
         "builtinBinds": [
-            { "id": "engine", "key": "B", "command": "+toggle_engine" },
-            { "id": "seatbelt", "key": "L", "command": "+toggle_seatbelt" },
-            { "id": "cruise", "key": "T", "command": "+toggle_cruisemode" },
-            { "id": "nitro", "key": "N", "command": "+toggle_nitro" },
-            { "id": "vehicleMenu", "key": "U", "command": "koja_vehiclemenu" }
+            {
+                "id": "engine",
+                "key": "B",
+                "command": "+toggle_engine"
+            },
+            {
+                "id": "seatbelt",
+                "key": "L",
+                "command": "+toggle_seatbelt"
+            },
+            {
+                "id": "cruise",
+                "key": "T",
+                "command": "+toggle_cruisemode"
+            },
+            {
+                "id": "nitro",
+                "key": "N",
+                "command": "+toggle_nitro"
+            },
+            {
+                "id": "vehicleMenu",
+                "key": "U",
+                "command": "koja_vehiclemenu"
+            }
         ],
         "layout": {
             "status": {
@@ -213,7 +233,7 @@
         }
     },
     "ui": {
-        "discord": "discord.gg/hexelstore",
+        "discord": "discord.gg/BKWyWguWxv",
         "logo": "",
         "keybinds": {
             "position": "right",
@@ -253,11 +273,41 @@
             ]
         },
         "activeBinds": [
-            { "id": "engine", "key": "B", "command": "+toggle_engine", "label": "Engine", "description": "Toggle the vehicle engine" },
-            { "id": "seatbelt", "key": "L", "command": "+toggle_seatbelt", "label": "Seatbelt", "description": "Toggle the vehicle seatbelt" },
-            { "id": "cruise", "key": "T", "command": "+toggle_cruisemode", "label": "Cruise mode", "description": "Toggle cruise control" },
-            { "id": "nitro", "key": "N", "command": "+toggle_nitro", "label": "Nitro", "description": "Activate vehicle nitro" },
-            { "id": "vehicleMenu", "key": "U", "command": "koja_vehiclemenu", "label": "Vehicle controls", "description": "Open the vehicle control menu" }
+            {
+                "id": "engine",
+                "key": "B",
+                "command": "+toggle_engine",
+                "label": "Motor",
+                "description": "Zapnout/vypnout motor vozidla"
+            },
+            {
+                "id": "seatbelt",
+                "key": "L",
+                "command": "+toggle_seatbelt",
+                "label": "Bezpečnostní pás",
+                "description": "Zapnout/vypnout bezpečnostní pás"
+            },
+            {
+                "id": "cruise",
+                "key": "T",
+                "command": "+toggle_cruisemode",
+                "label": "Tempomat",
+                "description": "Zapnout/vypnout tempomat"
+            },
+            {
+                "id": "nitro",
+                "key": "N",
+                "command": "+toggle_nitro",
+                "label": "Nitro",
+                "description": "Aktivovat nitro vozidla"
+            },
+            {
+                "id": "vehicleMenu",
+                "key": "U",
+                "command": "koja_vehiclemenu",
+                "label": "Ovládání vozidla",
+                "description": "Otevřít ovládání vozidla"
+            }
         ]
     },
     "options_settings": {
